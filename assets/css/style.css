@@ -1,58 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
 
-/*================================ General =====*/
+/*=========================================================== General =====*/
 
 body {
-    margin: 0;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
 }
 
-/*================================ Navigation Menu =====*/
+/*=========================================================== Navigation Menu =====*/
 
 .header {
-    background-color: #373030;
+  background-color: #373030;
 }
-.header .menu .navbar .navbar-brand{
-    padding:
+.header .menu .navbar .navbar-brand {
+  margin-left: 30px;
 }
 
 .header .menu .navbar .navbar-brand h1 {
-    font-family: "Cinzel",sans-serif;
-    font-weight: 400;
-    color: #FAFF00;
+  font-family: "Cinzel", sans-serif;
+  font-weight: 400;
+  color: #faff00;
 }
 
 .header .menu .navbar {
-    padding:
+  padding: ;
 }
 
 .header .menu .nav-item .nav-link {
-    font-family: "Raleway", sans-serif;
-    font-weight: 200;
-    padding: 1.5rem;
-    color: #fafafa;
-    font-size: 120%
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  padding: 1.5rem;
+  color: #fafafa;
+  font-size: 120%;
 }
 
-.header .menu .navbar .navbar-brand h1, .header .menu .nav-item .nav-link {
-    line-height: 40px;
+.header .menu .navbar .navbar-brand h1,
+.header .menu .nav-item .nav-link {
+  line-height: 5px;
 }
 
-.header .menu .navbar-nav .active a{
-    background: #FAFF00;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.header .menu .navbar-nav .active a {
+  background: #faff00;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-.header .menu .navbar-nav a:hover{
-    background: #FAFF00;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+.header .menu .navbar-nav a:hover {
+  background: #faff00;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-/*================================ Cover Area =====*/
+.header .menu .navbar-nav {
+    padding-right: 22px;
+}
+/*=========================================================== Cover Area =====*/
 
+.main .cover {
+  background-color: #373030;
+  margin-right: 0; 
+}
+
+.main .cover .cover-intro h3 {
+  padding-top: 10px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  color: #fafafa;
+  text-align: right;
+}
+
+.main .cover .cover-intro h1 {
+  padding-top: 0px;
+  font-weight: 600;
+  font-size: 70px;
+  font-family: "Raleway", sans-serif;
+  color: #fafafa;
+  text-align: right;
+}
+
+.main .cover .cover-intro h5 {
+  padding-top: 0px;
+  font-weight: 200;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  color: #faff00;
+  text-align: right;
+}
+
+.cover-image {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  height: 526px;
+  object-fit: fill;
+}
