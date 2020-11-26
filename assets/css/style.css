@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
 
-/*=========================================================== General =====*/
+/*=========================================================== Start General =====*/
 
 body {
   margin: 0;
@@ -9,13 +9,23 @@ body {
   height: 100%;
 }
 
-/*=========================================================== Navigation Menu =====*/
+.title {
+  text-align: center;
+  margin: 0;
+  font-size: 220%;
+  font-weight: 300;
+  color: #fafafa;
+  font-family: "Cinzel", sans-serif;
+  padding-top: 10px;
+}
+
+/*=========================================================== End General =====*/
+
+
+/*=========================================================== Start Navigation Menu =====*/
 
 .header {
   background-color: #373030;
-}
-.header .menu .navbar .navbar-brand {
-  margin-left: 30px;
 }
 
 .header .menu .navbar .navbar-brand h1 {
@@ -56,21 +66,30 @@ body {
 }
 
 .header .menu .navbar-nav {
-    padding-right: 22px;
+  padding-right: 22px;
 }
-/*=========================================================== Cover Area =====*/
+
+.navbar-toggler {
+  background-color: #faff00;
+  opacity: 0.5;
+}
+
+/*=========================================================== End Navigation Menu =====*/
+
+
+/*=========================================================== Start Cover Area =====*/
 
 .main .cover {
   background-color: #373030;
-  margin-right: 0; 
+  margin-right: 0;
 }
 
 .main .cover .cover-intro h3 {
-  padding-top: 10px;
-  font-weight: 400;
+  padding-top: 150px;
+  font-weight: 600;
   font-family: "Raleway", sans-serif;
   color: #fafafa;
-  text-align: right;
+  text-align: center;
 }
 
 .main .cover .cover-intro h1 {
@@ -79,16 +98,16 @@ body {
   font-size: 70px;
   font-family: "Raleway", sans-serif;
   color: #fafafa;
-  text-align: right;
+  text-align: center;
 }
 
 .main .cover .cover-intro h5 {
-  padding-top: 0px;
+  padding-top: 10px;
   font-weight: 200;
   font-size: 20px;
   font-family: "Raleway", sans-serif;
   color: #faff00;
-  text-align: right;
+  text-align: center;
 }
 
 .cover-image {
@@ -96,6 +115,202 @@ body {
   margin-left: 0;
   margin-right: 0;
   width: 100%;
-  height: 526px;
+  height: 600px;
   object-fit: fill;
 }
+
+/*=========================================================== End Cover Area=====*/
+
+
+/*=========================================================== Start About Me =====*/
+
+.main .about-me {
+  background-color: rgba(55, 48, 48, 0.9);
+  
+ 
+}
+
+.about-me {
+  height: 600px;
+  margin: 0;
+}
+
+#left-about {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+}
+
+#right-about {
+  padding-top: 30px;
+  width: 33%;
+  float: right;
+}
+
+#center-about {
+  width: 33%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+hr {
+  color: #faff00;
+  border-top: 2px solid;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.left-about-heading {
+  width: 50%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+  color: #fafafa;
+}
+
+.right-about-heading {
+  width: 50%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+  color: #fafafa;
+}
+
+.right-about-heading h2 {
+  text-align: right;
+  color: #fafafa;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 150%
+}
+
+.left-about-heading h2 {
+  text-align: left;
+  color: #fafafa;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 150%
+}
+
+.right-about-heading p {
+  text-align: right;
+}
+
+#circle-container {
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border: solid;
+  border-color: #cccccc;
+  border-width: 1px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#circle-cover-bg {
+  background: url("../images/about-me.jpeg");
+  height: 100%;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1393px) {
+  .about-me {
+    height: 1200px;
+    margin: 0;
+  }
+  .title {
+    padding: 30px 0;
+    margin-top: 0;
+  }
+  #left-about,
+  #right-about {
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+  #center-about {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 943px) {
+  .about-me {
+    height: 1200px;
+    margin: 0;
+  }
+
+  .left-about-heading,
+  .right-about-heading {
+    width: inherit;
+  }
+
+  .left-about-heading h2,
+  .right-about-heading h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .left-about-heading p,
+  .right-about-heading p {
+    text-align: center;
+    padding: 20px;
+  }
+
+  #photo {
+    column-count: 3;
+  }
+}
+
+/*=========================================================== End About Me =====*/
+
+/*=========================================================== Start Skills =====*/
+/*=========================================================== End Skills =====*/
+
+/*=========================================================== Start Experience =====*/
+/*=========================================================== End Experience =====*/
+
+/*=========================================================== Start Footer =====*/
+
+footer {
+    background-color: #373030;
+    color: #faff00;
+    min-height: 80px;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    line-height: 50px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #faff00;
+    background: #373030;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #fafafa;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+/*=========================================================== End Footer =====*/
