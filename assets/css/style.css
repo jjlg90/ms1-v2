@@ -79,12 +79,12 @@ body {
 
 /*=========================================================== Start Cover Area =====*/
 
-.main .cover {
+.main #cover {
   background-color: #373030;
   margin-right: 0;
 }
 
-.main .cover .cover-intro h3 {
+.main #cover .cover-intro h3 {
   padding-top: 150px;
   font-weight: 600;
   font-family: "Raleway", sans-serif;
@@ -92,7 +92,7 @@ body {
   text-align: center;
 }
 
-.main .cover .cover-intro h1 {
+.main #cover .cover-intro h1 {
   padding-top: 0px;
   font-weight: 600;
   font-size: 70px;
@@ -101,7 +101,7 @@ body {
   text-align: center;
 }
 
-.main .cover .cover-intro h5 {
+.main #cover .cover-intro h5 {
   padding-top: 10px;
   font-weight: 200;
   font-size: 20px;
@@ -124,13 +124,13 @@ body {
 
 /*=========================================================== Start About Me =====*/
 
-.main .about-me {
+.main #about-me {
   background-color: rgba(55, 48, 48, 0.9);
   
  
 }
 
-.about-me {
+#about-me {
   height: 600px;
   margin: 0;
 }
@@ -203,7 +203,7 @@ hr {
   height: 300px;
   padding: 30px;
   border: solid;
-  border-color: #cccccc;
+  border-color: #373030;
   border-width: 1px;
   border-radius: 50%;
   margin: 0 auto;
@@ -217,7 +217,7 @@ hr {
 }
 
 @media screen and (max-width: 1393px) {
-  .about-me {
+  #about-me {
     height: 1200px;
     margin: 0;
   }
@@ -239,7 +239,7 @@ hr {
   }
 }
 @media screen and (max-width: 943px) {
-  .about-me {
+  #about-me {
     height: 1200px;
     margin: 0;
   }
@@ -272,7 +272,90 @@ hr {
 /*=========================================================== End Skills =====*/
 
 /*=========================================================== Start Experience =====*/
+#experience, #experience div {
+    background: #373030;
+}
+
+.timeline-left {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+}
+
+.timeline-right {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-right: 1px solid;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    text-align: right;
+}
+
+.timeline-left p, .timeline-right p {
+    padding: 0;
+    margin: 0;
+    color: #faff00;
+}
+
+.timeline-left:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-right:before {
+    content: attr(data-dates);
+    position: absolute;
+    right: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-left:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.timeline-right:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    right: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.experience-items {
+    margin-bottom: 30px;
+}
 /*=========================================================== End Experience =====*/
+
 
 /*=========================================================== Start Footer =====*/
 
