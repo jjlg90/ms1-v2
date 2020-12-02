@@ -2,13 +2,13 @@
 
 /*=========================================================== Start General =====*/
 
-body, html {
+body,
+html {
   margin: 0;
   box-sizing: border-box;
   width: 100%;
   height: 100%;
 }
-
 
 .title {
   text-align: center;
@@ -18,17 +18,6 @@ body, html {
   color: #fafafa;
   font-family: "Cinzel", sans-serif;
   padding-top: 10px;
-}
-
-.section-title {
-  text-align: left;
-  margin: 0;
-  font-size: 180%;
-  font-weight: 200;
-  color: #faff00;
-  font-family: "Raleway", sans-serif;
-  padding-top: 10px;
-  padding-bottom: 1rem;
 }
 
 /*=========================================================== End General =====*/
@@ -43,7 +32,7 @@ body, html {
 }
 
 .header .menu .navbar {
-  padding-top: 1rem ;
+  padding-top: 1rem;
 }
 
 .header .menu .nav-item .nav-link {
@@ -77,20 +66,20 @@ body, html {
   padding-right: 22px;
 }
 
-
 .navbar-toggler {
   opacity: 0.5;
 }
 
 .navbar-toggler .navbar-toggler-icon {
-    color: #faff00;
+  color: #faff00;
 }
 
 /*=========================================================== End Navigation Menu =====*/
 
 /*=========================================================== Start Hero Image Area =====*/
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cover-image.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/cover-image.jpg");
 }
 
 .main .hero-image h3 {
@@ -105,7 +94,7 @@ body, html {
   .main .hero-image h3 {
     padding-top: 20rem;
   }
-  }
+}
 
 .main .hero-image h1 {
   padding-top: 0px;
@@ -127,13 +116,12 @@ body, html {
 }
 
 .main .hero-image .btn-warning {
-    font-size: 150%;
-    
+  font-size: 150%;
 }
 
 .main .hero-image .start {
-    padding-top: auto;
-    padding-left: auto;
+  padding-top: auto;
+  padding-left: auto;
 }
 
 .hero-image {
@@ -297,36 +285,48 @@ hr {
 /*=========================================================== Start Skills =====*/
 
 .main #skills {
-  background-color: rgba(55, 48, 48, 0.9);
+  background-color: #373030;
 }
 .progress {
-    position: relative;
-    height: 25px;
-    margin-bottom: 4px;
+  position: relative;
+  height: 25px;
+  margin-bottom: 4px;
 }
 
 .progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 3px 30px 2px 10px;
-    color: #fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
+  position: absolute;
+  left: 0px;
+  font-weight: 400;
+  padding: 3px 30px 2px 10px;
+  color: #fafafa;
+  background-color: rgba(25, 25, 25, 0.2);
 }
 
 .progress-section {
-    margin: 40px 20px;
+  margin: 40px 20px;
 }
 
 #skills .section-column {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
+
+.section-title {
+  text-align: center;
+  margin: 0;
+  font-size: 180%;
+  font-weight: 200;
+  color: #faff00;
+  font-family: "Raleway", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 1rem;
+}
+
 /*=========================================================== End Skills =====*/
 
 /*=========================================================== Start Experience =====*/
 #experience,
-#experience div {
-  background: #373030;
+#experience row {
+  background-color: rgba(55, 48, 48, 0.9);
 }
 
 .timeline-left {
@@ -415,24 +415,36 @@ hr {
 footer {
   background-color: #373030;
   color: #faff00;
-  min-height: 80px;
-  margin: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 200;
-  line-height: 50px;
 }
 
-.social-links {
-  padding-bottom: 15px;
-}
-
-.social-links li a i {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  font-size: 13px;
-  line-height: 7px;
+footer .row .cv,
+footer .row .work-with-me {
   text-align: center;
+}
+
+footer .row #work-with-me h6, footer .row #cv h6 {
+  display: inline;
+  color: #fafafa;
+}
+
+footer .row .social-links {
+    text-align: center;
+    margin: 0 auto;  
+     
+}
+
+footer .row .social-links ul li {
+  padding-left: 1rem;
+  display: inline; 
+}
+footer .row .social-links ul{
+    padding-left: 0;
+    padding-right:1rem; 
+    margin-top: 1rem;
+}
+footer .row .social-links ul li a i {
   color: #faff00;
   background: #373030;
   transition: all 0.35s ease-in-out;
@@ -443,10 +455,6 @@ footer {
 
 .social-links li a i:hover {
   color: #fafafa;
-}
-
-#footer-details {
-  padding: 20px;
 }
 
 /*=========================================================== End Footer =====*/

@@ -20,7 +20,7 @@
 
   <body>
     <main class="main">
-      <section id="cover">
+      <section id="hero-image">
         <div class="container-fluid">
           <div class="row hero">
             <div class="hero-image col-12">
@@ -71,9 +71,11 @@
               <h1 class="uppercase">Juan José</h1>
               <h1 class="uppercase">Lima Gentili</h1>
               <h5>Fullstack Javascript Developer</h5>
-              <div class="start"><a class="nav-link" href="#about-me">
-              <button type="button" class="btn btn-warning">Start</button>
-              </a></div>
+              <div class="start">
+                <a class="nav-link" href="#about-me">
+                  <button type="button" class="btn btn-warning">Start</button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -131,55 +133,16 @@
         </div>
       </section>
 
-      <section id="experience">
-        <h2 class="title">Experience</h2>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-xs-6 section-column">
-              <div class="experience-items">
-                <div class="timeline-left" data-dates="04/2020 - Present">
-                  <h4>Uber Eats</h4>
-                  <p>Delivery Partner</p>
-                </div>
-                <div class="timeline-left" data-dates="02/2020 - Present">
-                  <h4>Temper</h4>
-                  <p>Freelance Chef/Baretender</p>
-                </div>
-                <div class="timeline-left" data-dates="07/2020 - 10/2020">
-                  <h4>La Plume</h4>
-                  <p>Chef de Partie</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6 col-md-6 col-xs-6 section-column">
-              <div class="experience-items">
-                <div class="timeline-right" data-dates="04/2019 - 11/2019">
-                  <h4>Bloomingdale Beach Club</h4>
-                  <p>Pizza Chef</p>
-                </div>
-                <div class="timeline-right" data-dates="03/2006 - 02/2019">
-                  <h4>Del Parque Distribution Network</h4>
-                  <p>Traveling Salesman</p>
-                </div>
-                <div class="timeline-right" data-dates="10/2017 - 01/2018">
-                  <h4>GRABR.inc</h4>
-                  <p>Intern</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section id="skills">
         <h2 class="title">Skills</h2>
         <div class="container-fluid">
           <div class="row">
-            <div class="col-lg-6 col-md-6 col-xs-12 section-column">
+            <div class="col-1 col-md-1 col-xs-1"></div>
+            <div class="col-lg-5 col-md-5 col-xs-10 section-column">
               <h3 class="section-title">Tech</h3>
 
               <div class="progress">
+            
                 <div
                   class="progress-bar bg-dark progress-bar-striped"
                   role="progressbar"
@@ -213,7 +176,7 @@
               </div>
             </div>
 
-            <div class="col-lg-6 col-md-6 col-xs-12 section-column">
+            <div class="col-lg-5 col-md-5 col-xs-10 section-column">
               <h3 class="section-title">Languages</h3>
 
               <div class="progress">
@@ -249,48 +212,80 @@
                 ></div>
               </div>
             </div>
+            <div class="col-1 col-md-1 col-xs-1"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2 class="title">Experience</h2>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-1 col-md-1 col-xs-1"></div>
+            <div class="col-lg-5 col-md-5 col-xs-10 section-column">
+              <div class="experience-items">
+                <div class="timeline-left" data-dates="04/2020 - Present">
+                  <h4>Uber Eats</h4>
+                  <p>Delivery Partner</p>
+                </div>
+                <div class="timeline-left" data-dates="02/2020 - Present">
+                  <h4>Temper</h4>
+                  <p>Freelance Chef/Bartender</p>
+                </div>
+                <div class="timeline-left" data-dates="07/2020 - 10/2020">
+                  <h4>La Plume</h4>
+                  <p>Chef de Partie</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-5 col-xs-10 section-column">
+              <div class="experience-items">
+                <div class="timeline-right" data-dates="04/2019 - 11/2019">
+                  <h4>Bloomingdale Beach Club</h4>
+                  <p>Pizza Chef</p>
+                </div>
+                <div class="timeline-right" data-dates="03/2006 - 02/2019">
+                  <h4>Del Parque Distribution Network</h4>
+                  <p>Traveling Salesman</p>
+                </div>
+                <div class="timeline-right" data-dates="10/2017 - 01/2018">
+                  <h4>GRABR.inc</h4>
+                  <p>Intern</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-1 col-md-1 col-xs-1"></div>
           </div>
         </div>
       </section>
     </main>
 
-    <footer class="container-fluid">
-      <div id="footer-details" class="row">
-        <div class="col-sm-4">
-          <h6 class="inline-block">Print my CV</h6>
+    <footer>
+      <div class="container-fluid">
+        <div class="footer row">
+          <div class="col-lg-1 col-md-1 col-xs-1"></div>
+          <div class="col-lg-2 col-md-2 col-xs-10 cv">
+            <a href="assets/cv/sample-cv.pdf" target="_blank" id="cv">
+              <h6>Print my CV</h6>
+            </a>
+          </div>
 
-          <a href="assets/cv/sample-cv.pdf" target="_blank" class="cv-pdf">
-            <i class="fas fa-download" aria-hidden="true"></i>
-            <span class="sr-only">Download link.</span>
-          </a>
-        </div>
+          <div class="col-lg-6 col-md-6 col-xs-10 social-links">
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
 
-        <div class="col-sm-4">
-          <ul class="list-inline social-links">
-            <li class="list-inline-item">
-              <a href="" target="_blank">
-                <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li>
-
-            <li class="list-inline-item">
-              <a href="" target="_blank">
-                <i class="fab fa-linkedin" aria-hidden="true"></i>
-                <span class="sr-only">Linkedin</span></a
-              >
-            </li>
-
-            <li class="list-inline-item">
-              <a href="" target="_blank">
-                <i class="fab fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-sm-4">
-          <h6 class="inline-block">Work with me</h6>
+          <div class="col-lg-2 col-md-2 col-xs-10 work-with-me">
+            <a href="contact.html" target="_blank" id="work-with-me">
+              <h6>Work with me</h6>
+            </a>
+          </div>
+          <div class="col-lg-1 col-md-1 col-xs-1"></div>
         </div>
       </div>
     </footer>
