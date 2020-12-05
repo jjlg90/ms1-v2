@@ -90,9 +90,9 @@ html {
   text-align: left;
 }
 
-@media screen and (max-width: 943px) {
+@media screen and (max-width: 800px) {
   .main .hero-image h3 {
-    padding-top: 20rem;
+    padding-top: 8rem;
   }
 }
 
@@ -136,7 +136,22 @@ html {
   position: relative;
 }
 
-/*=========================================================== End Cover Area=====*/
+
+
+@media screen and (max-height: 750px) {
+  
+  .main .hero-image h1 {
+    font-size: 50px;
+  }
+  .main .hero-image h5 {
+    font-size: 10px;
+  }
+  .main .hero-image h3 {
+    padding-top: 1rem;
+  }
+}
+
+/*=========================================================== End Hero Image Area=====*/
 
 /*=========================================================== Start About Me =====*/
 
@@ -144,55 +159,45 @@ html {
   background-color: rgba(55, 48, 48, 0.9);
 }
 
-#about-me {
-  height: 600px;
-  margin: 0;
-}
 
-#left-about {
-  padding-top: 30px;
+.left-about {
+  padding-top: 1rem;
   width: 33%;
   float: left;
 }
 
-#right-about {
-  padding-top: 30px;
+.right-about {
+  padding-top: 1rem;
   width: 33%;
   float: right;
-}
-
-#center-about {
-  width: 33%;
-  margin: 0 auto;
-  margin-top: 30px;
 }
 
 hr {
   color: #faff00;
   border-top: 2px solid;
   width: 100%;
-  margin: 5px 0;
+  margin:;
 }
 
-.left-about-heading {
+.left-about {
   width: 50%;
-  float: right;
+  float:;
   line-height: 20px;
   clear: both;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: #fafafa;
 }
 
-.right-about-heading {
+.right-about{
   width: 50%;
   float: left;
   line-height: 20px;
   clear: both;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   color: #fafafa;
 }
 
-.right-about-heading h2 {
+.right-about h2 {
   text-align: right;
   color: #fafafa;
   font-family: "Raleway", sans-serif;
@@ -200,7 +205,7 @@ hr {
   font-size: 150%;
 }
 
-.left-about-heading h2 {
+.left-about h2 {
   text-align: left;
   color: #fafafa;
   font-family: "Raleway", sans-serif;
@@ -208,17 +213,22 @@ hr {
   font-size: 150%;
 }
 
-.right-about-heading p {
+.right-about p {
   text-align: right;
 }
 
+#center-about {
+  width: 100%;
+  margin: 0 auto;
+}
+
 #circle-container {
-  width: 300px;
-  height: 300px;
-  padding: 30px;
+  width: 20rem;
+  height: 20rem;
+  padding: 1rem;
   border: solid;
   border-color: #373030;
-  border-width: 1px;
+  border-width: 2px;
   border-radius: 50%;
   margin: 0 auto;
 }
@@ -230,54 +240,11 @@ hr {
   background-size: cover;
 }
 
-@media screen and (max-width: 1393px) {
-  #about-me {
-    height: 1200px;
-    margin: 0;
-  }
-  .title {
-    padding: 30px 0;
-    margin-top: 0;
-  }
-  #left-about,
-  #right-about {
-    width: 100%;
-    float: left;
-    padding: 0;
-  }
-  #center-about {
-    clear: both;
-    width: 100%;
-    float: left;
-    padding: 0;
-  }
-}
-@media screen and (max-width: 943px) {
-  #about-me {
-    height: 1200px;
-    margin: 0;
-  }
-
-  .left-about-heading,
-  .right-about-heading {
-    width: inherit;
-  }
-
-  .left-about-heading h2,
-  .right-about-heading h2 {
-    width: 100%;
-    text-align: center;
-  }
-
-  .left-about-heading p,
-  .right-about-heading p {
-    text-align: center;
-    padding: 20px;
-  }
-
-  #photo {
-    column-count: 3;
-  }
+@media screen and (max-width: 321px){
+    #circle-container {
+        width: 15rem;
+        height: 15rem;
+    }
 }
 
 /*=========================================================== End About Me =====*/
@@ -422,27 +389,34 @@ footer {
 footer .row .cv,
 footer .row .work-with-me {
   text-align: center;
+  margin-top: 1rem;
+   
 }
 
-footer .row #work-with-me h6, footer .row #cv h6 {
+footer .row #work-with-me h6,
+footer .row #cv h6 {
   display: inline;
   color: #fafafa;
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  
 }
 
 footer .row .social-links {
-    text-align: center;
-    margin: 0 auto;  
-     
+  text-align: center;
+  margin: 0 auto;
 }
 
 footer .row .social-links ul li {
   padding-left: 1rem;
-  display: inline; 
+  display: inline;
 }
-footer .row .social-links ul{
-    padding-left: 0;
-    padding-right:1rem; 
-    margin-top: 1rem;
+footer .row .social-links ul {
+  padding-left: 0;
+  padding-right: 1rem;
+  margin-top: 1rem;
 }
 footer .row .social-links ul li a i {
   color: #faff00;
@@ -453,8 +427,34 @@ footer .row .social-links ul li a i {
   -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover {
+footer .row .social-links ul li a i:hover {
   color: #fafafa;
 }
 
+footer .row #work-with-me h6:hover,
+footer .row #cv h6:hover {
+    color: #faff00;
+}
+
 /*=========================================================== End Footer =====*/
+
+/*=========================================================== Start Contact Form =====*/
+
+.contact-heading {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+button[type="submit"] {
+  margin-top: 1rem;
+}
+
+/*=========================================================== End Contact Form =====*/
