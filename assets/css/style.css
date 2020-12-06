@@ -173,7 +173,7 @@ body .main #about-me {
 /*=========================================================== Start About Me =====*/
 
 .main #about-me {
-  background-color: rgba(55, 48, 48, 0.9);
+  background-color: #373030;
 }
 
 
@@ -269,7 +269,7 @@ hr {
 /*=========================================================== Start Skills =====*/
 
 .main #skills {
-  background-color: #373030;
+  background-color: rgba(55, 48, 48, 0.9);
 }
 .progress {
   position: relative;
@@ -308,9 +308,9 @@ hr {
 /*=========================================================== End Skills =====*/
 
 /*=========================================================== Start Experience =====*/
-#experience,
-#experience row {
-  background-color: rgba(55, 48, 48, 0.9);
+#experience .title,
+#experience .row {
+  background-color: #373030;
 }
 
 .timeline-left {
@@ -393,6 +393,18 @@ hr {
   margin-bottom: 30px;
 }
 /*=========================================================== End Experience =====*/
+
+/*=========================================================== End Tutorials =====*/
+#tutorials .title,
+#tutorials .row {
+  background-color: rgba(55, 48, 48, 0.9);
+}
+
+.video {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+/*=========================================================== End Tutorials =====*/
 
 /*=========================================================== Start Footer =====*/
 
@@ -478,16 +490,3 @@ button[type="submit"] {
 
 /*=========================================================== Scrolling =====*/
 
-a[ id= "about-me" ]:target ~ #main article.panel {
--webkit-transform: translateY( 0px);
-transform: translateY( 0px );
-}
-
-a[ id= "experience" ]:target ~ #main article.panel {
--webkit-transform: translateY( -500px );
-transform: translateY( -500px );
-}
-a[ id= "skills" ]:target ~ #main article.panel {
--webkit-transform: translateY( -1000px );
-transform: translateY( -1000px );
-}
