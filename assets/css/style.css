@@ -8,6 +8,7 @@ html {
   box-sizing: border-box;
   width: 100%;
   height: 100%;
+  scroll-padding-top: 6rem;
 }
 
 .title {
@@ -20,6 +21,10 @@ html {
   padding-top: 10px;
 }
 
+body .main #about-me {
+    scroll-behavior: smooth; 
+}
+
 /*=========================================================== End General =====*/
 
 /*=========================================================== Start Navigation Menu =====*/
@@ -29,12 +34,14 @@ html {
     width: 100%;
     height: 6rem;
     z-index: 99;
+    transition: all 0.7s ease-in-out;
 }
 
 .header.active {
     position: fixed;
-    background: rgba(55, 48, 48, 0.95);
+    background: rgba(55, 48, 48, 0.98);
     width: 100%;
+    transition: all 0.7s ease-in-out;
 
 }
 
@@ -103,22 +110,16 @@ html {
   font-weight: 600;
   font-family: "Raleway", sans-serif;
   color: #fafafa;
-  text-align: left;
-}
-
-@media screen and (max-width: 800px) {
-  .main .hero-image h3 {
-    padding-top: 8rem;
-  }
+  padding-left: 2rem;
 }
 
 .main .hero-image h1 {
   padding-top: 0px;
+  padding-left: 2rem;
   font-weight: 600;
   font-size: 70px;
   font-family: "Raleway", sans-serif;
   color: #fafafa;
-  text-align: left;
 }
 
 .main .hero-image h5 {
@@ -137,7 +138,7 @@ html {
 
 .main .hero-image .start {
   padding-top: auto;
-  padding-left: auto;
+  padding-left: 2rem;
 }
 
 .hero-image {
@@ -163,7 +164,7 @@ html {
     font-size: 10px;
   }
   .main .hero-image h3 {
-    padding-top: 1rem;
+    padding-top: 16rem;
   }
 }
 
@@ -474,3 +475,19 @@ button[type="submit"] {
 }
 
 /*=========================================================== End Contact Form =====*/
+
+/*=========================================================== Scrolling =====*/
+
+a[ id= "about-me" ]:target ~ #main article.panel {
+-webkit-transform: translateY( 0px);
+transform: translateY( 0px );
+}
+
+a[ id= "experience" ]:target ~ #main article.panel {
+-webkit-transform: translateY( -500px );
+transform: translateY( -500px );
+}
+a[ id= "skills" ]:target ~ #main article.panel {
+-webkit-transform: translateY( -1000px );
+transform: translateY( -1000px );
+}
