@@ -419,9 +419,11 @@
           <div class="col-lg-1 col-md-1 col-xs-1"></div>
 
           <div class="col-lg-2 col-md-2 col-xs-10 cv">
-            <a href="assets/cv/cv.pdf" target="_blank" id="cv">
-              <h6>Download a PDF of my CV</h6>
-            </a>
+          
+                <a class="nav-link" target="_blank" href="assets/cv/cv.pdf">
+                  <button type="button" class="btn btn-warning">PDF of my CV</button>
+              
+                </a>
           </div>
 
           <div class="col-lg-6 col-md-6 col-xs-10 social-links">
@@ -433,9 +435,31 @@
           </div>
 
           <div class="col-lg-2 col-md-2 col-xs-10 work-with-me">
-            <a href="contact.html" target="_blank" id="work-with-me">
-              <h6>Work with me</h6>
-            </a>
+          
+          <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#mymodal">Work with me</button>
+           
+           <div class="modal fade" id="mymodal">
+           
+              <div class="modal-dialog">
+                <div class="modal-content">
+
+                  <div class="modal-header">
+                     <h3>modal thingy</h3>
+                    </div>
+
+                  <div class="body">
+                     <p>This modal will have a contact form to replace contact.html</p>
+                    </div>
+
+                  <div class="footer">
+                     <p>dark side</p>
+                   </div>
+
+                </div>
+             </div>
+
+         </div>
+
           </div>
 
           <div class="col-lg-1 col-md-1 col-xs-1"></div>
@@ -446,6 +470,7 @@
 
 <!--*=========================================================== End Footer =====*/-->
 
+<script src="js/bootstrap.min.js"></script>
 <script src="script.js"></script>
 
   </body>
