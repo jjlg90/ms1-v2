@@ -1,478 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-      type="text/css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
-      integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>JJLG</title>
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous" />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <title>JJLG</title>
+    </head>
 
-  <body>
-    <main class="main">
+    <body>
+        <main class="main">
+            <!--*=========================================================== Start Hero Image Area =====*/-->
 
-<!--*=========================================================== Start Hero Image Area =====*/-->
+            <section id="hero-image">
+                <div class="container-fluid">
+                    <div class="row hero">
+                        <div class="hero-image col-12">
+                            <!--*======================================== Start Navigation Menu =====*/-->
 
-      <section id="hero-image">
-        <div class="container-fluid">
-          <div class="row hero">
-            <div class="hero-image col-12">
+                            <header class="header">
+                                <div class="menu">
+                                    <nav class="navbar navbar-expand-lg navbar-light">
+                                        <a class="navbar-brand" href="index.html">
+                                            <h1>JJLG</h1>
+                                        </a>
+                                        <button class="navbar-toggler btn-warning" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                            <span class="navbar-toggler-icon light"></span>
+                                        </button>
+                                        <div class="collapse navbar-collapse" id="navbarNav">
+                                            <div class="mr-auto"></div>
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item">
+                                                    <a class="nav-link js-scroll-trigger" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link js-scroll-trigger" href="#about-me">About</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link js-scroll-trigger" data-toggle="modal" href="#mymodal">Contact</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </header>
 
-    <!--*======================================== Start Navigation Menu =====*/-->
+                            <!--*======================================== End Navigation Menu =====*/-->
+                            <div class="intro-area">
+                                <h3 class="uppercase">I'm</h3>
+                                <h1 class="uppercase">Juan José</h1>
+                                <h1 class="uppercase">Lima Gentili</h1>
+                                <h5>Fullstack Javascript Developer</h5>
 
-              <header class="header">
-                <div class="menu">
-                  <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html">
-                      <h1>JJLG</h1>
-                    </a>
-                    <button
-                      class="navbar-toggler"
-                      type="button"
-                      data-toggle="collapse"
-                      data-target="#navbarNav"
-                      aria-controls="navbarNav"
-                      aria-expanded="false"
-                      aria-label="Toggle navigation"
-                    >
-                      <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                      <div class="mr-auto"></div>
-                      <ul class="navbar-nav">
-                        <li class="nav-item">
-                          <a class="nav-link" href="index.html"
-                            >Home <span class="sr-only">(current)</span></a
-                          >
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#about-me">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#experience">Experience</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                      </ul>
+                                <div class="start">
+                                    <a class="nav-link" href="#about-me">
+                                        <button type="button" class="btn btn-warning">Start</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </nav>
                 </div>
-              </header>
+            </section>
 
-    <!--*======================================== End Navigation Menu =====*/-->
-              <div class="intro-area">
-              <h3 class="uppercase">I'm</h3>
-              <h1 class="uppercase">Juan José</h1>
-              <h1 class="uppercase">Lima Gentili</h1>
-              <h5>Fullstack Javascript Developer</h5>
-              
-              <div class="start">
-                <a class="nav-link" href="#about-me">
-                  <button type="button" class="btn btn-warning">Start</button>
-                </a>
-              </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+            <!--*=========================================================== End Hero Image Area =====*/-->
 
-<!--*=========================================================== End Hero Image Area =====*/-->
+            <!--*=========================================================== Start About Me Area =====*/-->
 
-<!--*=========================================================== Start About Me Area =====*/-->
+            <section id="about-me">
+                <h2 class="title">About Me</h2>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-1 col-md-1 col-xs-0"></div>
 
-      <section id="about-me">
-        <h2 class="title">About Me</h2>
-        <div class="container-fluid">
-        
-        <div class="row">
-        <div class="col-lg-1 col-md-1 col-xs-0"></div>
+                        <div class="left-about col-lg-5 col-md-5 col-xs-12">
+                            <h2>Who I am</h2>
+                            <hr />
+                            <p>
+                                A highly versatile adventurer with a thirst for knowledge. I've worked on several fields such as business, gastronomy, IT and fitness. And from every one of them, I've managed to learn and improve my working
+                                ethics.
+                            </p>
+                        </div>
 
-          <div class="left-about col-lg-5 col-md-5 col-xs-12">
-            <h2>Who I am</h2>
-            <hr />
-            <p>
-              A highly versatile adventurer with a thirst for knowledge. I've worked on several fields such as business, gastronomy, IT and fitness. And from every one of them, I've managed to learn and improve my working ethics.
-             </p>
-          </div>
+                        <div class="right-about col-lg-5 col-md-5 col-xs-12">
+                            <h2>What I know</h2>
+                            <hr />
+                            <p>
+                                Currently studying to become a Fullstack Javascript Developer at Code Institute. I've also studied Culinary Arts (3 years), Business Management (1 year), IT Technician course (7 months) and Bodybuilding
+                                Instructor course (7 months)
+                            </p>
+                        </div>
 
-          <div class="right-about col-lg-5 col-md-5 col-xs-12">
-            <h2>What I know</h2>
-            <hr />
-            <p>
-              Currently studying to become a Fullstack Javascript Developer at Code Institute. I've also studied Culinary Arts (3 years), Business Management (1 year), IT Technician course (7 months) and Bodybuilding Instructor course (7 months)
-            </p>
-          </div>
-
-        <div class="col-lg-1 col-md-1 col-xs-0"></div>
-        </div>
-
-        <div class="row"> 
-        <div class="col-lg-4 col-md-4 col-xs-0"></div>
-        <div id="center-about" class="col-lg-4 col-md-4 col-xs-12">
-          <div id="circle-container">
-            <div id="circle-cover-bg"></div>
-          </div>
-        </div>
-       <div class="col-lg-4 col-md-4 col-xs-0"></div>
-        </div>
-
-        <div class="row">
-        <div class="col-lg-1 col-md-1 col-xs-1"></div>
-          <div class="left-about col-lg-5 col-md-5 col-xs-10 ">
-            <h2>What I want</h2>
-            <hr />
-            <p>
-              To learn. To improve. To excel. 
-               I feel highly enthusisastic about this new path as Web Developer, and I plan to always deliver a product that reads "Excellence" all over it.
-            </p>
-          </div>
-        <div class="right-about col-lg-5 col-md-5 col-xs-10 ">
-            <h2>Where I've been</h2>
-            <hr />
-            <p>
-              Originally from Buenos Aires, Argentina. I've done some traveling through south america. Currently living in Haarlem, The Netherlands, place that I've chosen for the higher chances of professional growth and career opportunities.
-            </p>
-          </div>
-
-        <div class="col-lg-1 col-md-1 col-xs-1"></div>
-        </div>
-
-       </div>
-      </section>
-
-<!--*=========================================================== End About Me Area =====*/-->
-
-<!--*=========================================================== Start Skills Area =====*/-->
-
-      <section id="skills">
-        <h2 class="title">Skills</h2>
-        <div class="container-fluid">
-
-          <div class="row">
-            <div class="col-1 col-md-1 col-xs-1"></div>
-            <div class="col-lg-5 col-md-5 col-xs-10 section-column">
-              <h3 class="section-title">Coding</h3>
-
-              <div class="progress">
-            
-                <div
-                  class="progress-bar bg-dark progress-bar-striped"
-                  role="progressbar"
-                  style="width: 70%"
-                  aria-valuenow="70"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                >
-                <span class="progress-type">HTML / HTML5</span>
-                </div>
-              </div>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-warning progress-bar-striped"
-                  role="progressbar"
-                  style="width: 50%"
-                  aria-valuenow="50"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ><span class="progress-type">CSS / CSS3</span></div>
-              </div>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-dark progress-bar-striped"
-                  role="progressbar"
-                  style="width: 20%"
-                  aria-valuenow="20"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ><span class="progress-type">Javascript / jQuery</span></div>
-              </div>
-            </div>
-
-            <div class="col-lg-5 col-md-5 col-xs-10 section-column">
-              <h3 class="section-title">Languages</h3>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-dark progress-bar-striped"
-                  role="progressbar"
-                  style="width: 100%"
-                  aria-valuenow="100"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ><span class="progress-type">Spanish / Native</span></div>
-              </div>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-warning progress-bar-striped"
-                  role="progressbar"
-                  style="width: 85%"
-                  aria-valuenow="85"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ><span class="progress-type">English / Fluent</span></div>
-              </div>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-dark progress-bar-striped"
-                  role="progressbar"
-                  style="width: 20%"
-                  aria-valuenow="20"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ><span class="progress-type">Dutch / Student</span></div>
-              </div>
-            </div>
-            <div class="col-1 col-md-1 col-xs-1"></div>
-          </div>
-
-          <div class="row">
-            <div class="col-1 col-md-1 col-xs-1"></div>
-            <div class="col-lg-5 col-md-5 col-xs-10 section-column">
-              <h3 class="section-title">IT</h3>
-
-              <div class="progress">
-            
-                <div
-                  class="progress-bar bg-dark progress-bar-striped"
-                  role="progressbar"
-                  style="width: 95%"
-                  aria-valuenow="95"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ><span class="progress-type">PC Troubleshooting</span></div>
-              </div>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-warning progress-bar-striped"
-                  role="progressbar"
-                  style="width: 80%"
-                  aria-valuenow="80"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ><span class="progress-type">PC hardware repair</span></div>
-              </div>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-dark progress-bar-striped"
-                  role="progressbar"
-                  style="width: 30%"
-                  aria-valuenow="30"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ><span class="progress-type">Networks</span></div>
-              </div>
-            </div>
-
-            <div class="col-lg-5 col-md-5 col-xs-10 section-column">
-              <h3 class="section-title">Culinary</h3>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-dark progress-bar-striped"
-                  role="progressbar"
-                  style="width: 100%"
-                  aria-valuenow="100"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ><span class="progress-type">Cooking</span></div>
-              </div>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-warning progress-bar-striped"
-                  role="progressbar"
-                  style="width: 80%"
-                  aria-valuenow="80"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ><span class="progress-type">Bartending</span></div>
-              </div>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-dark progress-bar-striped"
-                  role="progressbar"
-                  style="width: 80%"
-                  aria-valuenow="80"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ><span class="progress-type">Management</span></div>
-              </div>
-            </div>
-            <div class="col-1 col-md-1 col-xs-1"></div>
-          </div>
-
-        </div>
-      </section>
-
-<!--*=========================================================== End Skills Area =====*/-->
-
-<!--*=========================================================== Start Experience Area =====*/-->
-
-      <section id="experience">
-        <h2 class="title">Experience</h2>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-1 col-md-1 col-xs-1"></div>
-            <div class="col-lg-5 col-md-5 col-xs-10 section-column">
-              <div class="experience-items">
-                <div class="timeline-left" data-dates="04/2020 - Present">
-                  <h4>Uber Eats</h4>
-                  <p>Delivery Partner</p>
-                </div>
-                <div class="timeline-left" data-dates="02/2020 - Present">
-                  <h4>Temper</h4>
-                  <p>Freelance Chef/Bartender</p>
-                </div>
-                <div class="timeline-left" data-dates="07/2020 - 10/2020">
-                  <h4>La Plume</h4>
-                  <p>Chef de Partie</p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-5 col-md-5 col-xs-10 section-column">
-              <div class="experience-items">
-                <div class="timeline-right" data-dates="04/2019 - 11/2019">
-                  <h4>Bloomingdale Beach Club</h4>
-                  <p>Pizza Chef</p>
-                </div>
-                <div class="timeline-right" data-dates="03/2006 - 02/2019">
-                  <h4>Del Parque Distribution Network</h4>
-                  <p>Traveling Salesman</p>
-                </div>
-                <div class="timeline-right" data-dates="10/2017 - 01/2018">
-                  <h4>GRABR.inc</h4>
-                  <p>Intern</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-1 col-md-1 col-xs-1"></div>
-          </div>
-        </div>
-      </section>
-
-<!--*=========================================================== End Experience Area =====*/-->
-
-<!--*=========================================================== Start Tutorials Area =====*/-->
-
-      <section id="tutorials">
-        <h2 class="title">Tutorials</h2>
-        <div class="container-fluid">
-          <div class="row">
-
-          <div class="col-1 col-md-1 col-xs-1"></div>
-
-          <div class="video col-lg-2 col-md-2 col-xs-10"> 
-           <iframe width="100%" height="300" src="https://www.youtube.com/embed/mU6anWqZJcc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </div>
-
-          <div class="video col-lg-2 col-md-2 col-xs-10"> 
-           <iframe width="100%" height="300" src="https://www.youtube.com/embed/6avJHaC3C2U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
-           <div class="video col-lg-2 col-md-2 col-xs-10"> 
-           <iframe width="100%" height="300" src="https://www.youtube.com/embed/qhAAmyGnA-M?list=PLJicmE8fK0EgogMqDYMgcADT1j5b911or" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
-           <div class="video col-lg-2 col-md-2 col-xs-10"> 
-           <iframe width="100%" height="300" src="https://www.youtube.com/embed/0eIz_ktnUp0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-           </div>
-
-           <div class="video col-lg-2 col-md-2 col-xs-10"> 
-           <iframe width="100%" height="300" src="https://www.youtube.com/embed/azcrPFhaY9k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
-           <div class="col-1 col-md-1 col-xs-1"></div>
-
-        </div>
-          </div>
-      </section>
-
-<!--*=========================================================== End Tutorials Area =====*/-->
-
-</main>
-
-<!--*=========================================================== Start Footer =====*/-->
-    <footer>
-      <div class="container-fluid">
-        <div class="footer row">
-
-          <div class="col-lg-1 col-md-1 col-xs-1"></div>
-
-          <div class="col-lg-2 col-md-2 col-xs-10 cv">
-          
-                <a class="nav-link" target="_blank" href="assets/cv/cv.pdf">
-                  <button type="button" class="btn btn-warning">PDF of my CV</button>
-              
-                </a>
-          </div>
-
-          <div class="col-lg-6 col-md-6 col-xs-10 social-links">
-            <ul>
-                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-2 col-md-2 col-xs-10 work-with-me">
-          
-          <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#mymodal">Work with me</button>
-           
-           <div class="modal fade" id="mymodal">
-           
-              <div class="modal-dialog">
-                <div class="modal-content">
-
-                  <div class="modal-header">
-                     <h3>modal thingy</h3>
+                        <div class="col-lg-1 col-md-1 col-xs-0"></div>
                     </div>
 
-                  <div class="body">
-                     <p>This modal will have a contact form to replace contact.html</p>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-xs-0"></div>
+                        <div id="center-about" class="col-lg-4 col-md-4 col-xs-12">
+                            <div id="circle-container">
+                                <div id="circle-cover-bg"></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-xs-0"></div>
                     </div>
 
-                  <div class="footer">
-                     <p>dark side</p>
-                   </div>
+                    <div class="row">
+                        <div class="col-lg-1 col-md-1 col-xs-1"></div>
+                        <div class="left-about col-lg-5 col-md-5 col-xs-10">
+                            <h2>What I want</h2>
+                            <hr />
+                            <p>
+                                To learn. To improve. To excel. I feel highly enthusisastic about this new path as Web Developer, and I plan to always deliver a product that reads "Excellence" all over it.
+                            </p>
+                        </div>
+                        <div class="right-about col-lg-5 col-md-5 col-xs-10">
+                            <h2>Where I've been</h2>
+                            <hr />
+                            <p>
+                                Originally from Buenos Aires, Argentina. I've done some traveling through south america. Currently living in Haarlem, The Netherlands, place that I've chosen for the higher chances of professional growth and
+                                career opportunities.
+                            </p>
+                        </div>
 
+                        <div class="col-lg-1 col-md-1 col-xs-1"></div>
+                    </div>
                 </div>
-             </div>
+            </section>
 
-         </div>
+            <!--*=========================================================== End About Me Area =====*/-->
 
-          </div>
+            <!--*=========================================================== Start Skills Area =====*/-->
 
-          <div class="col-lg-1 col-md-1 col-xs-1"></div>
+            <section id="skills">
+                <h2 class="title">Skills</h2>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-1 col-md-1 col-xs-1"></div>
+                        <div class="col-lg-5 col-md-5 col-xs-10 section-column">
+                            <h3 class="section-title">Coding</h3>
 
-        </div>
-      </div>
-    </footer>
+                            <div class="progress">
+                                <div class="progress-bar bg-dark progress-bar-striped" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                    <span class="progress-type">HTML / HTML5</span>
+                                </div>
+                            </div>
 
-<!--*=========================================================== End Footer =====*/-->
+                            <div class="progress">
+                                <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"><span class="progress-type">CSS / CSS3</span></div>
+                            </div>
 
-<script src="js/bootstrap.min.js"></script>
-<script src="script.js"></script>
+                            <div class="progress">
+                                <div class="progress-bar bg-dark progress-bar-striped" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+                                    <span class="progress-type">Javascript / jQuery</span>
+                                </div>
+                            </div>
+                        </div>
 
-  </body>
-  
+                        <div class="col-lg-5 col-md-5 col-xs-10 section-column">
+                            <h3 class="section-title">Languages</h3>
+
+                            <div class="progress">
+                                <div class="progress-bar bg-dark progress-bar-striped" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                                    <span class="progress-type">Spanish / Native</span>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                    <span class="progress-type">English / Fluent</span>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar bg-dark progress-bar-striped" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"><span class="progress-type">Dutch / Student</span></div>
+                            </div>
+                        </div>
+                        <div class="col-1 col-md-1 col-xs-1"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-1 col-md-1 col-xs-1"></div>
+                        <div class="col-lg-5 col-md-5 col-xs-10 section-column">
+                            <h3 class="section-title">IT</h3>
+
+                            <div class="progress">
+                                <div class="progress-bar bg-dark progress-bar-striped" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                                    <span class="progress-type">PC Troubleshooting</span>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                    <span class="progress-type">PC hardware repair</span>
+                                </div>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar bg-dark progress-bar-striped" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"><span class="progress-type">Networks</span></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 col-xs-10 section-column">
+                            <h3 class="section-title">Culinary</h3>
+
+                            <div class="progress">
+                                <div class="progress-bar bg-dark progress-bar-striped" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"><span class="progress-type">Cooking</span></div>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar bg-warning progress-bar-striped" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><span class="progress-type">Bartending</span></div>
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar bg-dark progress-bar-striped" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><span class="progress-type">Management</span></div>
+                            </div>
+                        </div>
+                        <div class="col-1 col-md-1 col-xs-1"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--*=========================================================== End Skills Area =====*/-->
+
+            <!--*=========================================================== Start Experience Area =====*/-->
+
+            <section id="experience">
+                <h2 class="title">Experience</h2>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-1 col-md-1 col-xs-1"></div>
+                        <div class="col-lg-5 col-md-5 col-xs-10 section-column">
+                            <div class="experience-items">
+                                <div class="timeline-left" data-dates="04/2020 - Present">
+                                    <h4>Uber Eats</h4>
+                                    <p>Delivery Partner</p>
+                                </div>
+                                <div class="timeline-left" data-dates="02/2020 - Present">
+                                    <h4>Temper</h4>
+                                    <p>Freelance Chef/Bartender</p>
+                                </div>
+                                <div class="timeline-left" data-dates="07/2020 - 10/2020">
+                                    <h4>La Plume</h4>
+                                    <p>Chef de Partie</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-5 col-md-5 col-xs-10 section-column">
+                            <div class="experience-items">
+                                <div class="timeline-right" data-dates="04/2019 - 11/2019">
+                                    <h4>Bloomingdale Beach Club</h4>
+                                    <p>Pizza Chef</p>
+                                </div>
+                                <div class="timeline-right" data-dates="03/2006 - 02/2019">
+                                    <h4>Del Parque Distribution Network</h4>
+                                    <p>Traveling Salesman</p>
+                                </div>
+                                <div class="timeline-right" data-dates="10/2017 - 01/2018">
+                                    <h4>GRABR.inc</h4>
+                                    <p>Intern</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-xs-1"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--*=========================================================== End Experience Area =====*/-->
+
+            <!--*=========================================================== Start Tutorials Area =====*/-->
+
+            <section id="tutorials">
+                <h2 class="title">Tutorials</h2>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-1 col-md-1 col-xs-1"></div>
+
+                        <div class="video col-lg-2 col-md-2 col-xs-10">
+                            <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/mU6anWqZJcc"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+
+                        <div class="video col-lg-2 col-md-2 col-xs-10">
+                            <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/6avJHaC3C2U"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+
+                        <div class="video col-lg-2 col-md-2 col-xs-10">
+                            <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/qhAAmyGnA-M?list=PLJicmE8fK0EgogMqDYMgcADT1j5b911or"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+
+                        <div class="video col-lg-2 col-md-2 col-xs-10">
+                            <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/0eIz_ktnUp0"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+
+                        <div class="video col-lg-2 col-md-2 col-xs-10">
+                            <iframe
+                                width="100%"
+                                height="300"
+                                src="https://www.youtube.com/embed/azcrPFhaY9k"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
+                        </div>
+
+                        <div class="col-1 col-md-1 col-xs-1"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--*=========================================================== End Tutorials Area =====*/-->
+        </main>
+
+        <!--*=========================================================== Start Footer =====*/-->
+        <footer>
+            <div class="container-fluid">
+                <div class="footer row">
+                    <div class="col-lg-1 col-md-1 col-xs-1"></div>
+
+                    <div class="col-lg-2 col-md-2 col-xs-10 cv">
+                        <a class="nav-link" target="_blank" href="assets/cv/cv.pdf">
+                            <button type="button" class="btn btn-warning">PDF of my CV</button>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-xs-10 social-links">
+                        <ul>
+                            <li>
+                                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-2 col-xs-10 work-with-me">
+                        <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#mymodal">Work with me</button>
+
+                        <div class="modal fade" id="mymodal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                     <h3 class="contact-heading uppercase text-center">Ready for a new project?</h3>
+                         <h5 class="uppercase text-center">Work with me</h5>
+
+                <div class="center-form">
+                    <form>
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
+                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
+                        <textarea rows="5" name="projectsummary" id="projectsummary" class="form-control" placeholder="Write your project ideas here" required></textarea>
+                        <div class="form-row text-center">
+                            <div class="col">
+                                <button type="submit" class="btn btn-warning">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-1 col-md-1 col-xs-1"></div>
+                </div>
+            </div>
+        </footer>
+
+        <!--*=========================================================== End Footer =====*/-->
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        <script type="text/javascript">    
+           $('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+      </script>
+
+
+    </body>
 </html>

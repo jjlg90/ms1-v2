@@ -4,25 +4,25 @@
 
 body,
 html {
-  margin: 0;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  scroll-padding-top: 6rem;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    scroll-padding-top: 6rem;
 }
 
 .title {
-  text-align: center;
-  margin: 0;
-  font-size: 220%;
-  font-weight: 300;
-  color: #fafafa;
-  font-family: "Cinzel", sans-serif;
-  padding-top: 10px;
+    text-align: center;
+    margin: 0;
+    font-size: 220%;
+    font-weight: 300;
+    color: #fafafa;
+    font-family: "Cinzel", sans-serif;
+    padding-top: 10px;
 }
 
 body .main #about-me {
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 
 /*=========================================================== End General =====*/
@@ -42,130 +42,181 @@ body .main #about-me {
     background: rgba(55, 48, 48, 0.98);
     width: 100%;
     transition: all 0.7s ease-in-out;
-
 }
 
 .header .menu .navbar .navbar-brand h1 {
-  font-family: "Cinzel", sans-serif;
-  font-weight: 400;
-  color: #faff00;
-  padding-top: 1rem;
+    font-family: "Cinzel", sans-serif;
+    font-weight: 400;
+    color: #faff00;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 300%;
 }
 
 .header .menu .navbar {
-  padding-top: 1rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
 }
 
 .header .menu .nav-item .nav-link {
-  font-family: "Raleway", sans-serif;
-  font-weight: 200;
-  padding: 1.5rem;
-  color: #fafafa;
-  font-size: 120%;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    padding: 1.5rem;
+    color: #fafafa;
+    font-size: 120%;
 }
 
 .header .menu .navbar .navbar-brand h1,
 .header .menu .nav-item .nav-link {
-  line-height: 5px;
+    line-height: 5px;
 }
 
 .header .menu .navbar-nav .active a {
-  background: #faff00;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+    background: #faff00;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .header .menu .navbar-nav a:hover {
-  background: #faff00;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+    background: #faff00;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .header .menu .navbar-nav {
-  padding-right: 22px;
+    padding-right: auto;
+    background-color: #373030;
 }
 
 .navbar-toggler {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
-.navbar-toggler .navbar-toggler-icon {
-  color: #faff00;
+.navbar-toggler {
+    color: white;
+    border-color: rgba(0,0,0,.1);
 }
+
+.header .menu .collapsing, .header .menu .show {
+    background-color: rgba(55, 48, 48, 0.95);
+    text-align: left;
+    padding-right: ;
+    padding-left:0;
+}
+
+@media screen and (max-width: 1000px){
+    .header .menu .collapsing, .header .menu .show {
+        margin-left: 80%;
+        font-size: 100%;
+}
+}
+
+@media screen and (max-width: 560px){
+    .header .menu .collapsing, .header .menu .show {
+        margin-left: 60%;
+        font-size: 80%;
+}
+}
+
+@media screen and (max-width: 400px){
+    .header .menu .collapsing, .header .menu .show {
+        margin-left: 60%;
+        font-size: 80%;
+}
+}
+
+@media screen and (max-width: 350px){
+.header .menu .collapsing, .header .menu .show {
+    margin-left: 35%;
+    font-size: 80%;
+}
+}
+
+.header .menu .show {
+    margin-right: auto;
+}
+
+.header .menu .show .navbar-nav {
+    padding-right: 0;
+}
+
+.header .menu .show .nav-link {
+    padding-left: 0 auto;
+    padding-right: auto;
+}
+
+
+
 
 /*=========================================================== End Navigation Menu =====*/
 
 /*=========================================================== Start Hero Image Area =====*/
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/cover-image.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cover-image.jpg");
     padding-left: 0;
     padding-right: 0;
 }
 
-.main .hero-image h3 {
-  padding-top: 15rem;
-  font-weight: 600;
-  font-family: "Raleway", sans-serif;
-  color: #fafafa;
-  padding-left: 2rem;
+.main .hero-image .intro-area h3 {
+    padding-top: 20rem;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+    color: #fafafa;
+    padding-left: 2rem;
 }
 
-.main .hero-image h1 {
-  padding-top: 0px;
-  padding-left: 2rem;
-  font-weight: 600;
-  font-size: 70px;
-  font-family: "Raleway", sans-serif;
-  color: #fafafa;
+.main .hero-image .intro-area h1 {
+    padding-top: 0px;
+    padding-left: 2rem;
+    font-weight: 600;
+    font-size: 70px;
+    font-family: "Raleway", sans-serif;
+    color: #fafafa;
 }
 
-.main .hero-image h5 {
-  padding-top: auto;
-  font-weight: 200;
-  font-size: 20px;
-  font-family: "Raleway", sans-serif;
-  color: #faff00;
-  text-align: left;
-  padding-left: 2rem;
+.main .hero-image .intro-area h5 {
+    padding-top: auto;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    color: #faff00;
+    text-align: left;
+    padding-left: 2rem;
 }
 
 .main .hero-image .btn-warning {
-  font-size: 150%;
+    font-size: 150%;
 }
 
 .main .hero-image .start {
-  padding-top: auto;
-  padding-left: 2rem;
+    padding-top: auto;
+    padding-left: 2rem;
 }
 
 .hero-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-  height: 70rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 70rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-
-
-@media screen and (max-width: 321px) {
-  
-  .main .hero-image h1 {
-    font-size: 45px;
-  }
-  .main .hero-image h5 {
-    font-size: 10px;
-  }
-  .main .hero-image h3 {
-    padding-top: 280px;
-  }
+@media screen and (max-width: 410px) {
+    .main .hero-image .intro-area h1 {
+        font-size: 45px;
+    }
+    .main .hero-image .intro-area h5 {
+        font-size: 10px;
+    }
+    .main .hero-image .intro-area h3 {
+        padding-top: 320px;
+    }
 }
 
 /*=========================================================== End Hero Image Area=====*/
@@ -173,91 +224,90 @@ body .main #about-me {
 /*=========================================================== Start About Me =====*/
 
 .main #about-me {
-  background-color: #373030;
+    background-color: #373030;
 }
 
-
 .left-about {
-  padding-top: 1rem;
-  width: 33%;
-  float: left;
+    padding-top: 1rem;
+    width: 33%;
+    float: left;
 }
 
 .right-about {
-  padding-top: 1rem;
-  width: 33%;
-  float: right;
+    padding-top: 1rem;
+    width: 33%;
+    float: right;
 }
 
 hr {
-  color: #faff00;
-  border-top: 2px solid;
-  width: 100%;
-  margin:;
+    color: #faff00;
+    border-top: 2px solid;
+    width: 100%;
+    margin: ;
 }
 
 .left-about {
-  width: 50%;
-  float:;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 30px;
-  color: #fafafa;
+    width: 50%;
+    float: ;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 30px;
+    color: #fafafa;
 }
 
-.right-about{
-  width: 50%;
-  float: left;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 30px;
-  color: #fafafa;
+.right-about {
+    width: 50%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 30px;
+    color: #fafafa;
 }
 
 .right-about h2 {
-  text-align: right;
-  color: #fafafa;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
-  font-size: 150%;
+    text-align: right;
+    color: #fafafa;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 150%;
 }
 
 .left-about h2 {
-  text-align: left;
-  color: #fafafa;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
-  font-size: 150%;
+    text-align: left;
+    color: #fafafa;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 150%;
 }
 
 .right-about p {
-  text-align: right;
+    text-align: right;
 }
 
 #center-about {
-  width: 100%;
-  margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #circle-container {
-  width: 20rem;
-  height: 20rem;
-  padding: 1rem;
-  border: solid;
-  border-color: #373030;
-  border-width: 2px;
-  border-radius: 50%;
-  margin: 0 auto;
+    width: 20rem;
+    height: 20rem;
+    padding: 1rem;
+    border: solid;
+    border-color: #373030;
+    border-width: 2px;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
 #circle-cover-bg {
-  background: url("../images/about-me.jpeg");
-  height: 100%;
-  border-radius: 50%;
-  background-size: cover;
+    background: url("../images/about-me.jpeg");
+    height: 100%;
+    border-radius: 50%;
+    background-size: cover;
 }
 
-@media screen and (max-width: 321px){
+@media screen and (max-width: 321px) {
     #circle-container {
         width: 15rem;
         height: 15rem;
@@ -269,40 +319,40 @@ hr {
 /*=========================================================== Start Skills =====*/
 
 .main #skills {
-  background-color: rgba(55, 48, 48, 0.9);
+    background-color: rgba(55, 48, 48, 0.9);
 }
 .progress {
-  position: relative;
-  height: 25px;
-  margin-bottom: 4px;
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
 }
 
 .progress-type {
-  position: absolute;
-  left: 0px;
-  font-weight: 400;
-  padding: 3px 30px 2px 10px;
-  color: #fafafa;
-  background-color: rgba(25, 25, 25, 0.2);
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgba(25, 25, 25, 0.2);
 }
 
 .progress-section {
-  margin: 40px 20px;
+    margin: 40px 20px;
 }
 
 #skills .section-column {
-  padding-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 .section-title {
-  text-align: center;
-  margin: 0;
-  font-size: 180%;
-  font-weight: 200;
-  color: #faff00;
-  font-family: "Raleway", sans-serif;
-  padding-top: 10px;
-  padding-bottom: 1rem;
+    text-align: center;
+    margin: 0;
+    font-size: 180%;
+    font-weight: 200;
+    color: #faff00;
+    font-family: "Raleway", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 1rem;
 }
 
 /*=========================================================== End Skills =====*/
@@ -310,94 +360,94 @@ hr {
 /*=========================================================== Start Experience =====*/
 #experience .title,
 #experience .row {
-  background-color: #373030;
+    background-color: #373030;
 }
 
 .timeline-left {
-  padding: 4em 2em 0em 2em;
-  position: relative;
-  color: #fafafa;
-  border-left: 1px solid;
-  font-family: "Raleway", sans-serif;
-  font-weight: 200;
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
 }
 
 .timeline-right {
-  padding: 4em 2em 0em 2em;
-  position: relative;
-  color: #fafafa;
-  border-right: 1px solid;
-  font-family: "Raleway", sans-serif;
-  font-weight: 200;
-  text-align: right;
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-right: 1px solid;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    text-align: right;
 }
 
 .timeline-left p,
 .timeline-right p {
-  padding: 0;
-  margin: 0;
-  color: #faff00;
+    padding: 0;
+    margin: 0;
+    color: #faff00;
 }
 
 .timeline-left:before {
-  content: attr(data-dates);
-  position: absolute;
-  left: 2.5em;
-  top: 3em;
-  display: block;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
-  font-size: 0.8em;
-  padding: 0;
-  margin: 0;
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
 }
 
 .timeline-right:before {
-  content: attr(data-dates);
-  position: absolute;
-  right: 2.5em;
-  top: 3em;
-  display: block;
-  font-family: "Raleway", sans-serif;
-  font-weight: 300;
-  font-size: 0.8em;
-  padding: 0;
-  margin: 0;
+    content: attr(data-dates);
+    position: absolute;
+    right: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
 }
 
 .timeline-left:after {
-  width: 12px;
-  height: 12px;
-  display: block;
-  top: 2.4em;
-  position: absolute;
-  left: -6px;
-  border-radius: 12px;
-  content: "";
-  background: #fafafa;
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: "";
+    background: #fafafa;
 }
 
 .timeline-right:after {
-  width: 12px;
-  height: 12px;
-  display: block;
-  top: 2.4em;
-  position: absolute;
-  right: -6px;
-  border-radius: 12px;
-  content: "";
-  background: #fafafa;
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    right: -6px;
+    border-radius: 12px;
+    content: "";
+    background: #fafafa;
 }
 
 .experience-items {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 /*=========================================================== End Experience =====*/
 
 /*=========================================================== End Tutorials =====*/
 #tutorials .title,
 #tutorials .row {
-  background-color: rgba(55, 48, 48, 0.9);
+    background-color: rgba(55, 48, 48, 0.9);
 }
 
 .video {
@@ -409,55 +459,53 @@ hr {
 /*=========================================================== Start Footer =====*/
 
 footer {
-  background-color: #373030;
-  color: #faff00;
-  font-family: "Raleway", sans-serif;
-  font-weight: 200;
+    background-color: #373030;
+    color: #faff00;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
 }
 
 footer .row .cv,
 footer .row .work-with-me {
-  text-align: center;
-  margin-top: 1rem;
-   
+    text-align: center;
+    margin-top: 1rem;
 }
 
 footer .row #work-with-me h6,
 footer .row #cv h6 {
-  display: inline;
-  color: #fafafa;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  
+    display: inline;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 footer .row .social-links {
-  text-align: center;
-  margin: 0 auto;
+    text-align: center;
+    margin: 0 auto;
 }
 
 footer .row .social-links ul li {
-  padding-left: 1rem;
-  display: inline;
+    padding-left: 1rem;
+    display: inline;
 }
 footer .row .social-links ul {
-  padding-left: 0;
-  padding-right: 1rem;
-  margin-top: 1rem;
+    padding-left: 0;
+    padding-right: 1rem;
+    margin-top: 1rem;
 }
 footer .row .social-links ul li a i {
-  color: #faff00;
-  background: #373030;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
+    color: #faff00;
+    background: #373030;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 footer .row .social-links ul li a i:hover {
-  color: #fafafa;
+    color: #fafafa;
 }
 
 footer .row #work-with-me h6:hover,
@@ -470,23 +518,38 @@ footer .row #cv h6:hover {
 /*=========================================================== Start Contact Form =====*/
 
 .contact-heading {
-  font-family: "Raleway", sans-serif;
-  font-weight: 200;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .center-form {
-  padding-top: 10px;
-  margin: 0 auto;
-  max-width: 70%;
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
 }
 
 button[type="submit"] {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 /*=========================================================== End Contact Form =====*/
 
-/*=========================================================== Scrolling =====*/
+/*=========================================================== Start Modal Contact Form =====*/
 
+.modal-content {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.modal-content h3, .modal-content h5 {
+    color: #fafafa;
+    font-weight: 300;
+}
+
+.modal-content .center-form .btn {
+    margin-bottom: 1rem;
+}
+
+/*=========================================================== End Modal Contact Form =====*/
