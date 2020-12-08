@@ -229,37 +229,28 @@ body .main #about-me {
 
 .left-about {
     padding-top: 1rem;
-    width: 33%;
-    float: left;
+    display: inline;
 }
 
 .right-about {
     padding-top: 1rem;
-    width: 33%;
-    float: right;
+    display: inline;
 }
 
 hr {
     color: #faff00;
     border-top: 2px solid;
     width: 100%;
-    margin: ;
 }
 
 .left-about {
-    width: 50%;
-    float: ;
     line-height: 20px;
-    clear: both;
     margin-bottom: 30px;
     color: #fafafa;
 }
 
 .right-about {
-    width: 50%;
-    float: left;
     line-height: 20px;
-    clear: both;
     margin-bottom: 30px;
     color: #fafafa;
 }
