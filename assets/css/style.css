@@ -85,7 +85,7 @@ html {
 
 .header .menu .navbar-nav {
     padding-right: auto;
-    background-color: #373030;
+    background-color: rgba(55, 48, 48, 0.40);
 }
 
 .navbar-toggler {
@@ -454,21 +454,12 @@ footer {
     font-weight: 200;
 }
 
-footer .row .cv,
-footer .row .work-with-me {
-    text-align: center;
+footer .row .cv .btn,
+footer .row .work-with-me .btn {
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-footer .row #work-with-me h6,
-footer .row #cv h6 {
-    display: inline;
-    color: #fafafa;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
 
 footer .row .social-links {
     text-align: center;
@@ -497,35 +488,13 @@ footer .row .social-links ul li a i:hover {
     color: #fafafa;
 }
 
-footer .row #work-with-me h6:hover,
-footer .row #cv h6:hover {
-    color: #faff00;
-}
-
 /*=========================================================== End Footer =====*/
 
-/*=========================================================== Start Contact Form =====*/
-
-.contact-heading {
-    font-family: "Raleway", sans-serif;
-    font-weight: 200;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-.center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
-}
-
-button[type="submit"] {
-    margin-top: 1rem;
-}
-
-/*=========================================================== End Contact Form =====*/
-
 /*=========================================================== Start Modal Contact Form =====*/
+
+#mymodal {
+    padding-top: 10rem;
+}
 
 .modal-content {
     position: absolute;
@@ -540,5 +509,16 @@ button[type="submit"] {
 .modal-content .center-form .btn {
     margin-bottom: 1rem;
 }
+
+.modal-content .center-form .form-control {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.modal-backdrop {
+   background-color:  rgba(0, 0, 0, 1);
+   
+}
+
 
 /*=========================================================== End Modal Contact Form =====*/
