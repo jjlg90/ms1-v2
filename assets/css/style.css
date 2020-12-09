@@ -22,7 +22,6 @@ html {
     padding-top: 10px;
 }
 
-
 /*=========================================================== End General =====*/
 
 /*=========================================================== Start Navigation Menu =====*/
@@ -85,7 +84,7 @@ html {
 
 .header .menu .navbar-nav {
     padding-right: auto;
-    background-color: rgba(55, 48, 48, 0.40);
+    background-color: rgba(55, 48, 48, 0.4);
 }
 
 .navbar-toggler {
@@ -94,42 +93,47 @@ html {
 
 .navbar-toggler {
     color: white;
-    border-color: rgba(0,0,0,.1);
+    border-color: rgba(0, 0, 0, 0.1);
 }
 
-.header .menu .collapsing, .header .menu .show {
+.header .menu .collapsing,
+.header .menu .show {
     background-color: rgba(55, 48, 48, 0.95);
     text-align: left;
     padding-right: ;
-    padding-left:0;
+    padding-left: 0;
 }
 
-@media screen and (max-width: 1000px){
-    .header .menu .collapsing, .header .menu .show {
+@media screen and (max-width: 1000px) {
+    .header .menu .collapsing,
+    .header .menu .show {
         margin-left: 80%;
         font-size: 100%;
-}
+    }
 }
 
-@media screen and (max-width: 560px){
-    .header .menu .collapsing, .header .menu .show {
+@media screen and (max-width: 560px) {
+    .header .menu .collapsing,
+    .header .menu .show {
         margin-left: 60%;
         font-size: 80%;
-}
+    }
 }
 
-@media screen and (max-width: 400px){
-    .header .menu .collapsing, .header .menu .show {
+@media screen and (max-width: 400px) {
+    .header .menu .collapsing,
+    .header .menu .show {
         margin-left: 60%;
         font-size: 80%;
-}
+    }
 }
 
-@media screen and (max-width: 350px){
-.header .menu .collapsing, .header .menu .show {
-    margin-left: 35%;
-    font-size: 80%;
-}
+@media screen and (max-width: 350px) {
+    .header .menu .collapsing,
+    .header .menu .show {
+        margin-left: 35%;
+        font-size: 80%;
+    }
 }
 
 .header .menu .show {
@@ -144,9 +148,6 @@ html {
     padding-left: 0 auto;
     padding-right: auto;
 }
-
-
-
 
 /*=========================================================== End Navigation Menu =====*/
 
@@ -460,7 +461,6 @@ footer .row .work-with-me .btn {
     margin-bottom: 1rem;
 }
 
-
 footer .row .social-links {
     text-align: center;
     margin: 0 auto;
@@ -501,7 +501,8 @@ footer .row .social-links ul li a i:hover {
     height: 100%;
     width: 100%;
 }
-.modal-content h3, .modal-content h5 {
+.modal-content h3,
+.modal-content h5 {
     color: #fafafa;
     font-weight: 300;
 }
@@ -516,9 +517,7 @@ footer .row .social-links ul li a i:hover {
 }
 
 .modal-backdrop {
-   background-color:  rgba(0, 0, 0, 1);
-   
+    background-color: rgba(0, 0, 0, 1);
 }
-
 
 /*=========================================================== End Modal Contact Form =====*/
