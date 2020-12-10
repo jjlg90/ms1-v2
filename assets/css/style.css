@@ -97,15 +97,20 @@ html {
 .header .menu .collapsing,
 .header .menu .show {
     background-color: rgba(55, 48, 48, 0.95);
-    text-align: right;
-    padding-right:0;
+    padding-right: 0;
     padding-left: 0;
+}
+
+.header .menu .collapsing .nav-link,
+.header .menu .show .nav-link {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: right;
 }
 
 @media screen and (max-width: 1000px) {
     .header .menu .collapsing,
     .header .menu .show {
-        margin-left: 80%;
         font-size: 100%;
     }
 }
@@ -113,7 +118,6 @@ html {
 @media screen and (max-width: 560px) {
     .header .menu .collapsing,
     .header .menu .show {
-        margin-left: 60%;
         font-size: 80%;
     }
 }
@@ -121,7 +125,6 @@ html {
 @media screen and (max-width: 400px) {
     .header .menu .collapsing,
     .header .menu .show {
-        margin-left: 60%;
         font-size: 80%;
     }
 }
