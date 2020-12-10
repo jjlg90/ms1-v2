@@ -41,7 +41,7 @@ html {
     transition: all 0.7s ease-in-out;
 }
 
-.header .menu .navbar .navbar-brand h1 {
+.header .menu .navbar .navbar-brand h2 {
     font-family: "Cinzel", sans-serif;
     font-weight: 400;
     color: #faff00;
@@ -63,7 +63,7 @@ html {
     font-size: 120%;
 }
 
-.header .menu .navbar .navbar-brand h1,
+.header .menu .navbar .navbar-brand h2,
 .header .menu .nav-item .nav-link {
     line-height: 5px;
 }
@@ -72,18 +72,16 @@ html {
     background: #faff00;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 
 .header .menu .navbar-nav a:hover {
     background: #faff00;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
 }
 
 .header .menu .navbar-nav {
-    padding-right: auto;
+    padding-right: 0;
     background-color: rgba(55, 48, 48, 0.4);
 }
 
@@ -99,8 +97,8 @@ html {
 .header .menu .collapsing,
 .header .menu .show {
     background-color: rgba(55, 48, 48, 0.95);
-    text-align: left;
-    padding-right: ;
+    text-align: right;
+    padding-right:0;
     padding-left: 0;
 }
 
@@ -145,8 +143,8 @@ html {
 }
 
 .header .menu .show .nav-link {
-    padding-left: 0 auto;
-    padding-right: auto;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /*=========================================================== End Navigation Menu =====*/
@@ -166,7 +164,7 @@ html {
     padding-left: 2rem;
 }
 
-.main .hero-image .intro-area h1 {
+.main .hero-image .intro-area h2 {
     padding-top: 0px;
     padding-left: 2rem;
     font-weight: 600;
@@ -176,7 +174,7 @@ html {
 }
 
 .main .hero-image .intro-area h5 {
-    padding-top: auto;
+    padding-top: 0;
     font-weight: 200;
     font-size: 20px;
     font-family: "Raleway", sans-serif;
@@ -190,7 +188,7 @@ html {
 }
 
 .main .hero-image .start {
-    padding-top: auto;
+    padding-top: 0;
     padding-left: 2rem;
 }
 
@@ -207,7 +205,7 @@ html {
 }
 
 @media screen and (max-width: 410px) {
-    .main .hero-image .intro-area h1 {
+    .main .hero-image .intro-area h2 {
         font-size: 45px;
     }
     .main .hero-image .intro-area h5 {
@@ -443,6 +441,10 @@ hr {
 .video {
     padding-top: 2rem;
     padding-bottom: 1rem;
+}
+
+.ytvideo {
+    width: 100%;
 }
 /*=========================================================== End Tutorials =====*/
 
