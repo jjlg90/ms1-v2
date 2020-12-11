@@ -147,4 +147,5 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+* My Mentor, Olawuseun Owonikoko, who guided me through development.
+* [Stack Overflow](https://stackoverflow.com/) helped me finding answers about structure and styling from other people's inquiries, posts and threads.
