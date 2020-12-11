@@ -85,6 +85,9 @@ Two mirrored timelines with work history, previous employers and position held.
 Embedded videos that work as a proof of knowledge for users. Section will become "Project Protfolio" in the future.
 * Section suggested by mentor, Seun Owonikoko; and Code Institute Assestment Handbook.
 
+### "Contact Form"
+* Code taken from Bootstrap 4 mini-project, Code Institute.
+
 ## Technologies
 
 ### Languages
@@ -97,12 +100,14 @@ Embedded videos that work as a proof of knowledge for users. Section will become
 
 * [Bootstrapv4.5.3:](https://getbootstrap.com/) 
     * Responsive design and css styling.
+* [Jquery CDN](https://code.jquery.com)
+    * Javascript.
 * [W3Schools](https://www.w3schools.com/)
     * CSS documentation.
 * [Figma:](https://figma.com/)
     - Figma was used to create the wireframes.
 * [GitHub:](https://github.com/)
-    - Code repository.
+    * Code repository.
 * [Gitpod](https://gitpod.io/)
     * Gitpod was used as IDE and for version control. 
 * [Font Awesome:](https://fontawesome.com/)
