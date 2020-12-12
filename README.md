@@ -86,6 +86,7 @@ Embedded videos that work as a proof of knowledge for users. Section will become
 * Section suggested by mentor, Seun Owonikoko; and Code Institute Assestment Handbook.
 
 ### "Contact Form"
+Contact form encased inside a bootstrap modal.
 * Code taken from Bootstrap 4 mini-project, Code Institute.
 
 ## Technologies

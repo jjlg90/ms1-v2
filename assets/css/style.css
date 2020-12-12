@@ -69,17 +69,11 @@ html {
 }
 
 .header .menu .navbar-nav .active a {
-    background: #faff00;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background: rgba(55, 48, 48, 0.9);
 }
 
 .header .menu .navbar-nav a:hover {
-    background: #faff00;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    background: rgba(55, 48, 48, 0.9);
 }
 
 .header .menu .navbar-nav {
@@ -108,7 +102,7 @@ html {
 .header .menu .show .nav-link {
     margin-left: 1rem;
     margin-right: 1rem;
-    text-align: center;
+    text-align: right;
 }
 
 @media screen and (max-width: 991px) {
@@ -145,6 +139,10 @@ html {
     }
 }
 
+.header .menu .show {
+    margin-right: auto;
+}
+
 .header .menu .show .navbar-nav {
     padding-right: 0;
 }
@@ -157,20 +155,6 @@ html {
 /*=========================================================== End Navigation Menu =====*/
 
 /*=========================================================== Start Hero Image Area =====*/
-
-.hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cover-image.jpg");
-    padding-left: 0;
-    padding-right: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 70rem;
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
 
 .main .hero-image .intro-area h3 {
     padding-top: 20rem;
@@ -208,7 +192,20 @@ html {
     padding-left: 2rem;
 }
 
-
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cover-image.jpg");
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 70rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 @media screen and (max-width: 410px) {
     .main .hero-image .intro-area h2 {
@@ -291,7 +288,7 @@ hr {
     border-color: #373030;
     border-width: 2px;
     border-radius: 50%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 #circle-cover-bg {
@@ -487,9 +484,6 @@ footer .row .social-links ul li a i {
     color: #faff00;
     background: #373030;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 footer .row .social-links ul li a i:hover {
