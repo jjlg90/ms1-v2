@@ -2,6 +2,10 @@
 
 This project consists of an online resume, to become portfolio once the developer's start getting more experience on the development field and worked in new and original projects.
  
+![responsive-design](/assets/images/responsive-design.jpg)
+
+[Live Project](https://jjlg90.github.io/ms1-v2/)
+
 ## UX
  
  ### Strategy
@@ -10,7 +14,7 @@ This project consists of an online resume, to become portfolio once the develope
  To provide orderly and relevant information about the developer and his work to potential employers, contractors and collaborators.
  
  #### Developer Goals: 
- To expose designing capabilities from the start. To showcase an attractive, well design resume website that evolves as time passes and experience cumulates.
+ To expose designing capabilities from the start. To showcase an attractive, well-designed resume website that evolves as time passes and experience cumulates.
 
 ### Scope 
 
@@ -29,18 +33,20 @@ This project consists of an online resume, to become portfolio once the develope
 * Skills: Progress bars with showcasing diverse skills grouped in 4 categories: Coding, Languages, IT and Culinary.
 
 ### Skeleton
--insert wireframes here-
+For the wireframes, Figma software has been used to lay out the foundations of the website.
+
+[Wireframes](https://www.figma.com/file/GPEZVsOYZX8YZx683e31gn/MS1-v2?node-id=0%3A1&viewport=331%2C557%2C0.1710612028837204)
 
 ### Surface
- The website is focused on displaying only important information. The content is easy to navigate and is neatly divided in sections, with every section having a complete different desing structure, as to keep the user's attention.
+ The website is focused on displaying only important information. The content is easy to navigate and is neatly divided in sections, with every section having a complete different design's structure, as to keep the user's attention.
 
- The color palette was chosen having in mind a night mode. Potential users will be professionals of the field  that expend a lot of their time in front of screens. An easy to look at, not overly bright design is what was chosen for the project. 
-* Two shades of gray for backgrounds. 
+ The colour palette was chosen with night/dark mode in mind. Potential users will be professionals of the field  that expend a lot of their time in front of screens. An easy to look at, not overly bright design is what was chosen for the project. 
+* Two shades of grey for backgrounds. 
 * Two shades of white for text.
 * Two shades of yellow for details and effects.
 
 The fonts are:
-* Cinzel for headers. Uppercase and bold, it's sure to catch the user's attention.
+* Cinzel for headers. Uppercase and bold, is sure to catch the user's attention.
 * Raleway for content. A more friendly approach for longer pieces of text.
 
 ## User stories
@@ -54,7 +60,7 @@ The fonts are:
 * Would like to see updated information about the developer's latest projects.
 * Ease of access to contact the developer.
 
-## Desing and Credits
+## Design and Credits
 
 ### Header 
 Big JJLG Header with a right aligned collapsible navigation bar. Fixed with a javascript shade effect and smooth transition.
@@ -82,10 +88,10 @@ Two mirrored timelines with work history, previous employers and position held.
 * Section inspired by Bootstrap 4 mini-project, Code Institute.
 
 ### "Tutorials" section
-Embedded videos that work as a proof of knowledge for users. Section will become "Project Protfolio" in the future.
-* Section suggested by mentor, Seun Owonikoko; and Code Institute Assestment Handbook.
+Embedded videos that work as a proof of knowledge for users. Section will become "Project Portfolio" in the future.
+* Section suggested by mentor, Oluwaseun Owonikoko; and Code Institute Assessment Handbook.
 
-### "Contact Form"
+### Contact Form
 Contact form encased inside a bootstrap modal.
 * Code taken from Bootstrap 4 mini-project, Code Institute.
 
@@ -118,40 +124,36 @@ Contact form encased inside a bootstrap modal.
 * [Chrome Developer Tools:](https://developers.google.com/web/tools/chrome-devtools)
     * Used to debug and style.
 
-
-
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+* HTML has been validated by W3C validator.
+* CSS has been validated by Jigsaw validator.
+* Website has been tested on Chrome, Mozilla, Opera and Edge.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+#### Responsiveness
+The responsiveness of the website has been tested with Chrome Developer Tools.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+#### Validation
+* Form element validation is fully functional.
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+#### Links
+* All anchor elements work as expected on every browser.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+#### Javascript
+* Scripts fully functional on every browser.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+The repository is hosted by GitHub and the IDE by Gitpod. In order to deploy the site, I've followed these steps:
+* Choose the ms1-v2 repository on github.
+* Click on the settings button.
+* Scroll down to find the section "Github pages"
+* Change "Source" from "none" to "main". Save.
+* The link then will appear in the "Github pages" section.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 ### Acknowledgements
 
-* My Mentor, Olawuseun Owonikoko, who guided me through development.
-* [Stack Overflow](https://stackoverflow.com/) helped me finding answers about structure and styling from other people's inquiries, posts and threads.
+* My Mentor, Oluwaseun Owonikoko, who guided me through development.
+* [Stack Overflow](https://stackoverflow.com/) helped me to find answers about structure and styling from other people's inquiries, posts and threads.
+* Tutor Support.
