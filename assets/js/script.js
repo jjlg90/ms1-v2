@@ -1,8 +1,11 @@
 const header = document.querySelector(".header");
 
+$(".js-scroll-trigger").click(function () {
+                $(".navbar-collapse").collapse("hide");
+            });
+            
 window.onscroll = function() {
-    var top = window.scrollY;
-    this.console.log(top);
+    const top = window.scrollY;
     if (top >= 100) {
         header.classList.add("active")
     }else{

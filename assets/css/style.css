@@ -96,8 +96,8 @@ html {
     text-align: center;
 }
 
-.header .menu .collapsing .nav-link,
-.header .menu .show .nav-link {
+.header .menu .collapsing .nav-item .nav-link,
+.header .menu .show .nav-item .nav-link {
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: center;
