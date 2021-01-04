@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
 
-/*=========================================================== Start General =====*/
+/*======================================== Start General ========================================*/
 
 body,
 html {
@@ -22,9 +22,9 @@ html {
     padding-top: 10px;
 }
 
-/*=========================================================== End General =====*/
+/*======================================== End General ========================================*/
 
-/*=========================================================== Start Navigation Menu =====*/
+/*======================================== Start Navigation Menu ========================================*/
 
 .header {
     position: fixed;
@@ -46,13 +46,13 @@ html {
     font-weight: 400;
     color: #faff00;
     padding-top: 1rem;
-    padding-left: 1rem;
     font-size: 300%;
 }
 
 .header .menu .navbar {
     padding-top: 1rem;
     padding-right: 2rem;
+    padding-left: 2rem;
 }
 
 .header .menu .nav-item .nav-link {
@@ -69,8 +69,9 @@ html {
 }
 
 .header .menu .navbar-nav a:hover {
-    background: rgba(55, 48, 48, 0.9);
+    background: rgba(55, 48, 48, 0.75);
     color: #faff00;
+    transition: all 0.80s ease-in-out;
 }
 
 .header .menu .navbar-nav {
@@ -90,10 +91,8 @@ html {
 .header .menu .collapsing,
 .header .menu .show {
     background-color: rgba(55, 48, 48, 0.95);
-    padding-right: 0;
-    padding-left: 0;
-    margin-left: 11rem;
     text-align: center;
+    margin-top: 2rem;
 }
 
 .header .menu .collapsing .nav-item .nav-link,
@@ -101,38 +100,6 @@ html {
     margin-left: 1rem;
     margin-right: 1rem;
     text-align: center;
-}
-
-@media screen and (max-width: 991px) {
-    .header .menu .collapsing,
-    .header .menu .show {
-        font-size: 90%;
-        margin-left: 80%;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .header .menu .collapsing,
-    .header .menu .show {
-        font-size: 80%;
-        margin-left: 70%;
-    }
-}
-
-@media screen and (max-width: 411px) {
-    .header .menu .collapsing,
-    .header .menu .show {
-        font-size: 70%;
-        margin-left: 65%;
-    }
-}
-
-@media screen and (max-width: 335px) {
-    .header .menu .collapsing,
-    .header .menu .show {
-        font-size: 70%;
-        margin-left: 55%;
-    }
 }
 
 .header .menu .show {
@@ -148,9 +115,9 @@ html {
     padding-right: 0;
 }
 
-/*=========================================================== End Navigation Menu =====*/
+/*======================================== End Navigation Menu ========================================*/
 
-/*=========================================================== Start Hero Image Area =====*/
+/*======================================== Start Hero Image Area ========================================*/
 
 .main .hero-image .intro-area h3 {
     padding-top: 20rem;
@@ -203,21 +170,9 @@ html {
     position: relative;
 }
 
-@media screen and (max-width: 410px) {
-    .main .hero-image .intro-area h2 {
-        font-size: 45px;
-    }
-    .main .hero-image .intro-area h5 {
-        font-size: 10px;
-    }
-    .main .hero-image .intro-area h3 {
-        padding-top: 320px;
-    }
-}
+/*======================================== End Hero Image Area ========================================*/
 
-/*=========================================================== End Hero Image Area=====*/
-
-/*=========================================================== Start About Me =====*/
+/*======================================== Start About Me ========================================*/
 
 .main #about-me {
     background-color: #373030;
@@ -294,16 +249,11 @@ hr {
     background-size: cover;
 }
 
-@media screen and (max-width: 991px) {
-    #circle-container {
-        width: 15rem;
-        height: 15rem;
-    }
-}
 
-/*=========================================================== End About Me =====*/
 
-/*=========================================================== Start Skills =====*/
+/*======================================== End About Me ========================================*/
+
+/*======================================== Start Skills ========================================*/
 
 .main #skills {
     background-color: rgba(55, 48, 48, 0.9);
@@ -342,9 +292,9 @@ hr {
     padding-bottom: 1rem;
 }
 
-/*=========================================================== End Skills =====*/
+/*======================================== End Skills ========================================*/
 
-/*=========================================================== Start Experience =====*/
+/*======================================== Start Experience ========================================*/
 #experience .title,
 #experience .row {
     background-color: #373030;
@@ -429,9 +379,9 @@ hr {
 .experience-items {
     margin-bottom: 30px;
 }
-/*=========================================================== End Experience =====*/
+/*======================================== End Experience ========================================*/
 
-/*=========================================================== End Tutorials =====*/
+/*======================================== End Tutorials ========================================*/
 #tutorials .title,
 #tutorials .row {
     background-color: rgba(55, 48, 48, 0.9);
@@ -445,9 +395,9 @@ hr {
 .ytvideo {
     width: 100%;
 }
-/*=========================================================== End Tutorials =====*/
+/*======================================== End Tutorials ========================================*/
 
-/*=========================================================== Start Footer =====*/
+/*======================================== Start Footer ========================================*/
 
 footer {
     background-color: #373030;
@@ -486,9 +436,9 @@ footer .row .social-links ul li a i:hover {
     color: #fafafa;
 }
 
-/*=========================================================== End Footer =====*/
+/*======================================== End Footer ========================================*/
 
-/*=========================================================== Start Modal Contact Form =====*/
+/*======================================== Start Modal Contact Form ========================================*/
 
 #mymodal {
     padding-top: 10rem;
@@ -514,8 +464,53 @@ footer .row .social-links ul li a i:hover {
     margin-bottom: 1rem;
 }
 
-.modal-backdrop {
-    background-color: rgba(0, 0, 0, 1);
+.modal-backdrop, .show {
+    background-color: rgba(0, 0, 0, 0.85);
 }
 
-/*=========================================================== End Modal Contact Form =====*/
+/*======================================== End Modal Contact Form ========================================*/
+
+/*======================================== Start Media Queries ========================================*/
+
+@media screen and (max-width: 991px) {
+    .header .menu .collapsing,
+    .header .menu .show {
+        font-size: 90%;
+    }
+    #circle-container {
+        width: 15rem;
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .header .menu .collapsing,
+    .header .menu .show {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .header .menu .collapsing,
+    .header .menu .show {
+        font-size: 70%;
+    }
+    .main .hero-image .intro-area h2 {
+        font-size: 45px;
+    }
+    .main .hero-image .intro-area h5 {
+        font-size: 10px;
+    }
+    .main .hero-image .intro-area h3 {
+        padding-top: 320px;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .header .menu .collapsing,
+    .header .menu .show {
+        font-size: 70%;
+    }
+}
+
+/*======================================== End Media Queries ========================================*/
