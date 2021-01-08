@@ -1,61 +1,66 @@
 <h1 align="center">User Centric Frontend Development Milestone Project - JJLG</h1>
 
-![responsive-design](/assets/images/responsive-design.jpg)
+![responsive-design](/assets/images/responsive-design.png)
 
-This project consists of an online resume, to become portfolio once the developer's start getting more experience on the development field and worked in new and original projects. It is designes to be fully responsive on a wide range of devices and resolutions.
- 
-[Live Project](https://jjlg90.github.io/ms1-v2/)
+This project consists of an online resume, to become portfolio once the developer's gets more experience on the web development field and worked in new and original projects. 
 
-## User Experience UX
+Check out the [Live Project](https://jjlg90.github.io/ms1-v2/) here!
 
-### User stories
+## User Experience (UX)
 
-#### First time visitor
+## User stories
+
+### First time visitor
 * As a First Time Visitor, I expect the purpose of the website to be explicit.
 * As a First Time Visitor, I consider smooth navigation through content to be a key aspect.
-* As a First Time Visitor, I want for the content of the website to be relevant and concise. 
+* As a First Time Visitor, I want the content of the website to be relevant and concise. 
 * As a First Time Visitor, I value having access to links related to the content.
 
-#### Returning visitor
+### Returning visitor
 * As a Returning Visitor, I would like to see updated information about the developer's latest projects.
 * As a Returning Visitor, I want to have ease of access to contact the developer.
 
-#### Frequent user
+### Frequent user
 * As a Frequent User, I want to check which resources and elements have been used for new projects.
 * As a Frequent User, I want to be able to propose new projects or ideas.
  
  
-### Strategy
+ ### Strategy
 
-#### Project Goals 
-To provide orderly and relevant information about the developer and his work to potential employers, contractors and collaborators.
-
-#### Developer Goals: 
-To expose designing capabilities from the start. To showcase an attractive, well-designed resume website that evolves as time passes and experience cumulates.
+ #### Project Goals 
+ To provide information about the developer and his work to potential employers, contractors and collaborators.
+ 
+ #### Developer Goals: 
+ To expose designing capabilities from the start. To showcase an attractive, well-designed resume website that evolves as time passes and experience cumulates.
 
 ### Scope 
 
 #### Features
-* The project is presented on a single page format with a practical fixed navigation menu.
+* The project is presented on a single page format with a fixed navigation menu.
 * Fully responsive on different screen sizes.
 * It counts with a contact form inside a modal pop-up.
 * Download link for a PDF copy of the physical version of the developer's resume.
 
+#### Future Features
+* Portfolio section to display other projects.
+* Interactive elements.
+* Aesthetic animations.
 ### Structure 
 
 #### Information
  The content is grouped in 4 different sections
 * About me: introduction, motivation, relevant personal info, education.
+* Skills: progress bars with showcasing diverse skills grouped in 4 categories: Coding, Languages, IT and Culinary.
 * Experience: timeline with a work history list.
-* Skills: Progress bars with showcasing diverse skills grouped in 4 categories: Coding, Languages, IT and Culinary.
+* Education: five image links to external websites for every relevant institution attended. Name of the institute, title aquired and date of studies below written below.
 
 ### Skeleton
 For the wireframes, Figma software has been used to lay out the foundations of the website.
 
-Check the wireframes here -- [Wireframes](https://www.figma.com/file/GPEZVsOYZX8YZx683e31gn/MS1-v2?node-id=0%3A1&viewport=331%2C557%2C0.1710612028837204)
+Check out the [Wireframes](https://www.figma.com/file/GPEZVsOYZX8YZx683e31gn/MS1-v2?node-id=0%3A1&viewport=331%2C557%2C0.1710612028837204) here!
 
 ### Surface
- The website is focused on displaying only important information. The content is easy to navigate and is neatly divided in sections, with every section having a complete different design's structure, as to keep the user's attention.
+ The website is focused on displaying only important information. The content is easy to navigate and is neatly divided in sections, with every section having a complete different design's structure, as to keep users attentive.
 
  The colour palette was chosen with night/dark mode in mind. Potential users will be professionals of the field  that expend a lot of their time in front of screens. An easy to look at, not overly bright design is what was chosen for the project. 
 * Two shades of grey for backgrounds. 
@@ -66,44 +71,38 @@ The fonts are:
 * Cinzel for headers. Uppercase and bold, is sure to catch the user's attention.
 * Raleway for content. A more friendly approach for longer pieces of text.
 
-## Design and Credits
+## Code and Credits
 
-### Header 
+### 1. Header 
 Big JJLG Header with a right aligned collapsible navigation bar. Fixed with a javascript shade effect and smooth transition.
 
-###### Credits
+##### Credits
 * Header style inspired by CSS project "Love Running", Code Institute.
 * Javascript shade helped by this [tutorial](https://www.youtube.com/watch?v=Tdkuk9uDTfM&ab_channel=ConorBailey)
 
-### About Me section
+### 2. About Me section
 Four sections with information. Each one with headers and paragraphs. Central image encased in a circular container.
 
-###### Credits 
+##### Credits 
 * Section inspired by CSS project "Love Running", Code Institute.
 
-### Skills section
+### 3. Skills section
 Progress bar trios divided into developer's four different expertise areas.
 
-###### Credits
+##### Credits
 * Section inspired by Bootstrap 4 mini-project, Code Institute.
 
-### Experience section
+### 4. Experience section
 Two mirrored timelines with work history, previous employers and position held.
 
-###### Credits
+##### Credits
 * Section inspired by Bootstrap 4 mini-project, Code Institute.
 
-### Education section
-Logos and links to educational institutions attended for professional formation. 
-
-### Contact Form
+### 5. Contact Form
 Contact form encased inside a bootstrap modal.
+##### Credits
 * Code taken from Bootstrap 4 mini-project, Code Institute.
 
-
-## Features
-
--   Responsive on all device sizes
 
 ## Technologies
 
@@ -137,8 +136,14 @@ Contact form encased inside a bootstrap modal.
 
 ## Testing
 
-* HTML has been validated by W3C validator.
-* CSS has been validated by Jigsaw validator.
+*  <img style="border:0;width:300px;"
+            src="/assets/images/w3c-check.jpg"
+            alt="Valid HTML!" /> HTML has been validated by W3C validator.
+* <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" /> 
+            CSS has been validated by Jigsaw validator.
+
 
 #### Responsiveness
 The responsiveness of the website has been tested with Chrome Developer Tools.
@@ -152,47 +157,48 @@ The responsiveness of the website has been tested with Chrome Developer Tools.
 #### Javascript
 * Scripts fully functional on every browser.
 
-### Testing User Stories from User Experience (UX) Section
+## Testing User Stories from User Experience (UX) Section
 
 -   #### First Time Visitor Goals
 
     1. As a First Time Visitor, I expect the purpose of the website to be explicit.
 
-        *. Upon entering the site, the user will see the introductory text that presents the developer and a navigation bar so they can choose a section and start navigating through the website.
-        *. The user has two options, click navigation bar buttons or scroll down, since it is a single page site.
+        * Upon entering the site, the user will see the introductory text that presents the developer and a navigation bar so they can choose a section and start navigating through the website.
+        * The user has two options, click navigation bar buttons or scroll down, since it is a single page site.
 
     2. As a First Time Visitor, I consider smooth navigation through content to be a key aspect.
 
-        *. The header and navigation bar will stay fixed so the option of jumping to a different section is always available. The navigation bar that becomes a burger button on small screens, each link describes the section they will end up at clearly.
+        * The header and navigation bar will stay fixed so the option of jumping to a different section is always available. The navigation bar that becomes a burger button on small screens, each link describes the section they will end up at clearly.
 
     3. As a First Time Visitor, I want for the content of the website to be relevant and concise. 
-        *. The paragraphs are short and focused. No big pieces of text nor unnecessary information is being display.
+        * The paragraphs are short and focused. No big pieces of text nor unnecessary information is being display.
 
 -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I would like to see updated information about the developer's latest projects.
 
-        *. Given that this is the first project, this goal should be considered into future features.
+        * Given that this is the first project, this goal should be considered into future features.
 
     2. As a Returning Visitor, I want to have ease of access to contact the developer.
 
-        *. Two buttons in the page will pop-up a modal form for the user to contact the developer. "Contact" button in the navigation bar, and "Work with me" in the footer.
+        * Two buttons in the page will pop-up a modal form for the user to contact the developer. "Contact" button in the navigation bar, and "Work with me" in the footer.
 
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to check which resources and elements have been used for new projects.
 
-        *. Given that this is the first project, this goal should be considered into future features.
+        * Given that this is the first project, this goal should be considered into future features.
 
     2. As a Frequent User, I want to be able to propose new projects or ideas.
 
-        *. The previously mentioned contact form counts with a textbox for users to suggest projects and ideas.
+        * The previously mentioned contact form counts with a textbox for users to suggest projects and ideas.
 
 
-### Further Testing
+## Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Opera.
+-   The website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Opera.
 -   The website was viewed on a variety of devices.
+
 
 ## Deployment
 
@@ -229,15 +235,6 @@ $ git clone https://github.com/jjlg90/ms1-v2
 ```
 
 7. Press Enter. Your local clone will be created.
-
-```
-$ git clone https://github.com/jjlg90/ms1-v2
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-```
 
 ### Acknowledgements
 
