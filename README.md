@@ -52,7 +52,7 @@ Check out the [Live Project](https://jjlg90.github.io/ms1-v2/) here!
 * About me: introduction, motivation, relevant personal info, education.
 * Skills: progress bars with showcasing diverse skills grouped in 4 categories: Coding, Languages, IT and Culinary.
 * Experience: timeline with a work history list.
-* Education: five image links to external websites for every relevant institution attended. Name of the institute, title aquired and date of studies below written below.
+* Education: five image links to external websites for every relevant institution attended. Name of the institute, title aquired and date of studies written below.
 
 ### Skeleton
 For the wireframes, Figma software has been used to lay out the foundations of the website.
@@ -138,11 +138,11 @@ Contact form encased inside a bootstrap modal.
 
 *  <img style="border:0;width:300px;"
             src="/assets/images/w3c-check.jpg"
-            alt="Valid HTML!" /> HTML has been validated by W3C validator.
+            alt="Valid HTML!" /> HTML has been validated by [W3C validator](https://validator.w3.org/)
 * <img style="border:0;width:88px;height:31px"
             src="http://jigsaw.w3.org/css-validator/images/vcss"
             alt="Valid CSS!" /> 
-            CSS has been validated by Jigsaw validator.
+            CSS has been validated by [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
 
 
 #### Responsiveness
