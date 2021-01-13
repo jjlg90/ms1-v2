@@ -136,13 +136,8 @@ Contact form encased inside a bootstrap modal.
 
 ## Testing
 
-*  <img style="border:0;width:300px;"
-            src="/assets/images/w3c-check.jpg"
-            alt="Valid HTML!" /> HTML has been validated by [W3C validator](https://validator.w3.org/)
-* <img style="border:0;width:88px;height:31px"
-            src="http://jigsaw.w3.org/css-validator/images/vcss"
-            alt="Valid CSS!" /> 
-            CSS has been validated by [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+*  [Valid HTML!](/assets/images/w3c-val.jpg) HTML has been validated by [W3C validator](https://validator.w3.org/)
+*  [Valid CSS!](/assets/images/jigsaw-val.png) CSS has been validated by [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
 
 
 #### Responsiveness
