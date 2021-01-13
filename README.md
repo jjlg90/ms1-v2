@@ -160,13 +160,14 @@ The responsiveness of the website has been tested with Chrome Developer Tools.
 
         * Upon entering the site, the user will see the introductory text that presents the developer and a navigation bar so they can choose a section and start navigating through the website.
         * The user has two options, click navigation bar buttons or scroll down, since it is a single page site.
-
+        * [Screenshot](/assets/images/user-s1.jpg)
     2. As a First Time Visitor, I consider smooth navigation through content to be a key aspect.
 
         * The header and navigation bar will stay fixed so the option of jumping to a different section is always available. The navigation bar that becomes a burger button on small screens, each link describes the section they will end up at clearly.
-
+        * [Screenshot](/assets/images/user-s2.png)
     3. As a First Time Visitor, I want for the content of the website to be relevant and concise. 
         * The paragraphs are short and focused. No big pieces of text nor unnecessary information is being display.
+        
 
 -   #### Returning Visitor Goals
 
@@ -177,7 +178,7 @@ The responsiveness of the website has been tested with Chrome Developer Tools.
     2. As a Returning Visitor, I want to have ease of access to contact the developer.
 
         * Two buttons in the page will pop-up a modal form for the user to contact the developer. "Contact" button in the navigation bar, and "Work with me" in the footer.
-
+        * [Screenshot](/assets/images/user-s3.png)
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to check which resources and elements have been used for new projects.
@@ -187,7 +188,7 @@ The responsiveness of the website has been tested with Chrome Developer Tools.
     2. As a Frequent User, I want to be able to propose new projects or ideas.
 
         * The previously mentioned contact form counts with a textbox for users to suggest projects and ideas.
-
+        * [Screenshot](/assets/images/user-s4.png)
 
 ## Further Testing
 
